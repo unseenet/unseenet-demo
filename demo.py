@@ -189,8 +189,9 @@ class Demo:
                 return f"unseenet:{self.group_id('feed:' + arg)}"
             if kind == "person":
                 return f"unseenet:{self.state['people'][arg]['fingerprint']}"
-            if kind == "picture":            # images on pages: unseenet#427
-                return f"*({self.credits[arg]['description'][:80] or arg} - {self.source_line(arg)})*"
+            if kind == "picture":            # a picture on the page (UN-RFC 0031 3.5, unseenet#427)
+                alt = (self.credits[arg]["description"] or arg)[:100].replace("]", ")")
+                return f"![{alt}](file:{self.picture(arg)})\n\n*{self.source_line(arg)}*"
             return m.group(0)
         return re.sub(r"\{(address|feed|person|picture):([a-z]+)\}", sub, text)
 
