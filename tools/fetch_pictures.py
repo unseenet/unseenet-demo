@@ -86,6 +86,18 @@ def find(words: str):
     return None
 
 
+def as_jpeg(data: bytes) -> bytes:
+    """The same picture as a JPEG of at most 1024 px, well under the 1 MiB a demo group
+    and a node take per file (the client cleans its metadata when it posts it)."""
+    import io
+    from PIL import Image
+    im = Image.open(io.BytesIO(data)).convert("RGB")
+    im.thumbnail((1024, 1024))
+    out = io.BytesIO()
+    im.save(out, "JPEG", quality=85, optimize=True)
+    return out.getvalue()
+
+
 def main() -> None:
     """All pictures, or only those named on the command line (keeping the others)."""
     OUT.mkdir(parents=True, exist_ok=True)
@@ -99,11 +111,11 @@ def main() -> None:
         if not found:
             print(f"{name}: nothing with a licence we accept", file=sys.stderr)
             continue
-        ext = ".png" if found["url"].lower().endswith(".png") else ".jpg"
         req = urllib.request.Request(found["url"], headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=60) as r:
-            (OUT / f"{name}{ext}").write_bytes(r.read())
-        credits[name] = {**found, "file": f"content/pictures/{name}{ext}"}
+            data = r.read()
+        (OUT / f"{name}.jpg").write_bytes(as_jpeg(data))
+        credits[name] = {**found, "file": f"content/pictures/{name}.jpg"}
         print(f"{name}: {found['title']} ({found['license']}, {found['author'][:40]})")
         time.sleep(1)                       # be polite to Commons
     (OUT / "credits.json").write_text(json.dumps(credits, indent=2, ensure_ascii=False) + "\n")
