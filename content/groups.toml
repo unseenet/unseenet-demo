@@ -1,0 +1,50 @@
+# The demo's groups, owned by the demo key. `name` is put after the prefix in demo.toml
+# (e.g. unseenet.demo); an empty name is the prefix itself. Their rules say plainly that
+# everything is reset every Monday.
+
+[discuss]
+name = ""
+type = "open"
+title = "Unseenet Demo: discussion"
+description = "Threads and replies. Say hello, ask anything - it is reset every Monday."
+rules = "rules.md"
+
+[chat]
+name = "chat"
+type = "open"
+view = "chat"
+kinds = "chat"
+title = "Unseenet Demo: chat"
+description = "A chat room. Lines come and go; everything is reset every Monday."
+rules = "rules.md"
+
+[feed]
+name = "feed"
+type = "channel"
+view = "feed"
+comments = "open"
+posters = ["mira", "tomas", "nadia", "ole", "ines"]
+title = "Around the village"
+description = "A shared feed: what the people of the demo are up to. Comment as you like."
+rules = "rules.md"
+max_pins = 3
+
+[photos]
+name = "photos"
+type = "open"
+attachments = 1048576
+types = "image/*"
+title = "Unseenet Demo: photos"
+description = "Pictures, with their metadata taken out by the client before they are sent."
+rules = "rules.md"
+
+[site]
+name = "site"
+type = "channel"
+view = "pages"
+posters = ["mira"]
+title = "Unseenet Demo"
+description = "The demo's site: what Unseenet is, how to try it, and who lives here."
+home = "index"
+attachments = 1048576
+types = "image/*"

@@ -1,32 +1,59 @@
 # unseenet-demo
 
-Demo content for [Unseenet](https://unseenet.org), so there is something to see: a
-site with pages, pictures and links, feeds to follow, and a handful of fictional
-people who post and comment on each other.
+Demo content for [Unseenet](https://unseenet.org), so there is something to see: five
+made-up people with profiles, pictures and their own feeds, a shared feed, a chat, a
+discussion group, a photo group and a site - with comments and replies between them.
 
-It is made **only with the `unseenet` command-line client**, so it is also a proof
-of concept: everything here is something anyone can do with the released software.
+It is made **only with the `unseenet` command-line client**, so it is also a proof of
+concept: everything here is something anyone can do with the released software.
 
-> Status: being planned for Unseenet 0.5.0 (unseenet#385). Nothing to run yet.
+## What it makes
 
-## The idea
+| Group | What |
+|---|---|
+| `unseenet.demo` | a discussion group: threads and replies, a pinned welcome |
+| `unseenet.demo.chat` | a chat room |
+| `unseenet.demo.feed` | "Around the village", a shared feed with comments open |
+| `unseenet.demo.photos` | pictures, with their metadata taken out by the client |
+| `unseenet.demo.site` | the demo's site: pages that stay, with links to everything |
+| `feed@<fingerprint>` | each person's personal feed |
 
-- **Content as files.** Pages in Markdown, feed entries, comments, profiles and the
-  pictures, under `content/`. Change a file and run the script again.
-- **One script.** `demo.py up` creates the groups, profiles, posts, comments, pins
-  and pages that are missing; `demo.py reset` withdraws what it posted and posts it
-  again; `demo.py down` withdraws everything, and `down --remove-groups` removes the
-  groups for good (their names cannot be used again afterwards, so a new demo then
-  gets new names).
-- **Fictional people.** Their keys are derived from one secret demo key, which is
-  never in this repository. Their key-ripening chains need no secret and are kept
-  here, so a run does not ripen again.
+The people - Mira and her guinea pigs, Tomas the beekeeper, Nadia the baker, Ole the
+radio amateur and Ines who walks and looks at stars - are in `content/people.toml`;
+their posts in `content/posts.toml`, the chat in `content/chat.toml`, the site's pages
+in `content/site/`. Every group's rules say that **everything is reset every Monday**.
 
 ## Running it
 
-Needs the `unseenet` CLI (0.5.0 or later), Tor, and the demo key
-(`UNSEENET_DEMO_SEED`), which the maintainer keeps with the project's other keys.
+Needs the `unseenet` CLI (0.5.0 or later), a node to post to, and the demo seed.
+
+```bash
+python demo.py up        # make what is missing (safe to run again)
+python demo.py reset     # withdraw everything - also what others wrote - and make it again
+python demo.py down      # withdraw everything; --remove-groups removes the groups for good
+```
+
+Settings are in `demo.toml` (`DEMO_CONFIG` names another file): the group prefix, the
+node, where the vault and the state are kept, and where the seed is.
+
+**The seed** is 64 hex characters, in `UNSEENET_DEMO_SEED` or the file `seed_file`
+names. Every person's key is derived from it and their name (HMAC-SHA256), so the same
+seed always gives the same people. It is never in this repository; the maintainer keeps
+it with the project's other keys.
+
+**The first run** takes a while: every new key works for a few minutes, once, before it
+posts (key ripening, UN-RFC 0025). After that the vault remembers.
+
+**What has been made** is remembered in the state file, so `up` makes only what is
+missing, and `reset` knows what to make again.
+
+## Pictures
+
+From [Wikimedia Commons](https://commons.wikimedia.org/), only public domain, CC0 and
+plain CC BY - see [CREDITS.md](CREDITS.md). Every post with a picture says where it
+comes from. `tools/fetch_pictures.py` finds and downloads them, and writes the credits.
 
 ## License
 
-Code: Apache-2.0. Content (text and pictures): CC BY 4.0.
+Code: Apache-2.0. The demo's own text: CC BY 4.0. The pictures keep their own licences
+(CREDITS.md).

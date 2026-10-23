@@ -1,0 +1,247 @@
+# Posts, comments and replies, in the order they are posted. `key` names a post so
+# others can reply to it (`reply_to`) and demo.py remembers what it posted. `group` is a
+# group from groups.toml, or "feed:<person>" for someone's personal feed. `pictures`
+# are names from content/pictures/; their source is added under the text by demo.py.
+
+# --- the shared feed and the discussion: welcome, pinned ---
+
+[[post]]
+key = "welcome-feed"
+by = "demo"
+group = "feed"
+subject = "Welcome to the village"
+pin = "Start here"
+body = """This is the demo of **Unseenet**: a discussion network in the spirit of \
+Usenet and the old BBSes, carried over Tor. The people here are made up; the network \
+is real.
+
+Have a look around:
+
+- **This feed** - what the people of the demo are up to. Comment on anything.
+- **Their own feeds** - follow a person, and their posts come into your timeline.
+- **The chat**, **the discussion group** and **the photos** next door.
+- **The site** - pages that stay, with pictures and links.
+
+Everything is reset every Monday, so try what you like."""
+
+[[post]]
+key = "welcome-discuss"
+by = "demo"
+group = "discuss"
+subject = "Hello, and what this group is for"
+pin = "Read me first"
+body = """Threads and replies, like a newsgroup. Start a thread, answer one, quote \
+someone - it all stays readable as a conversation.
+
+Some threads to begin with are below. And yes: on Monday it is all reset."""
+
+# --- personal feeds ---
+
+[[post]]
+key = "mira-1"
+by = "mira"
+group = "feed:mira"
+subject = "Pepper found the dandelions"
+pictures = ["guineapig"]
+body = """First warm day of the year, so Pepper got an hour on the lawn. She has \
+decided dandelions are the best invention since hay. Biscuit stayed inside and \
+sulked."""
+
+[[post]]
+key = "mira-2"
+by = "mira"
+group = "feed:mira"
+subject = "Spring cleaning, guinea pig edition"
+pictures = ["guineapigs"]
+body = """New hay, a new hideout and a bowl of carrot tops. They have already moved \
+the hideout to where it was before."""
+
+[[post]]
+key = "tomas-1"
+by = "tomas"
+group = "feed:tomas"
+subject = "Checking the frames"
+pictures = ["bees"]
+body = """Opened hive three today. Plenty of capped honey and a calm colony - the \
+best kind of afternoon. The queen was hiding, as queens do."""
+
+[[post]]
+key = "tomas-2"
+by = "tomas"
+group = "feed:tomas"
+subject = "The apiary in May"
+pictures = ["hive"]
+body = """Six hives along the old stone wall, and the wild flowers doing half my job \
+for me."""
+
+[[post]]
+key = "nadia-1"
+by = "nadia"
+group = "feed:nadia"
+subject = "Gordon is on form"
+pictures = ["bread"]
+body = """Gordon (the starter) had a good week, and it shows. Long, cold proof, very \
+hot oven, and a crust that sings when it cools. Recipe in the comments if anyone wants \
+it."""
+
+[[post]]
+key = "nadia-2"
+by = "nadia"
+group = "feed:nadia"
+subject = "4 a.m. at the bakery"
+pictures = ["bakery"]
+body = """The oven is the warmest place in town at this hour. Rye first, then the \
+white loaves, then coffee."""
+
+[[post]]
+key = "ole-1"
+by = "ole"
+group = "feed:ole"
+subject = "The new beam is up"
+pictures = ["antenna"]
+body = """Finally got the Yagi on the mast before the wind came back. First contact \
+on it: a station in Portugal, clear as anything."""
+
+[[post]]
+key = "ole-2"
+by = "ole"
+group = "feed:ole"
+subject = "A keyboard from another age"
+pictures = ["keyboard"]
+body = """Found this at a flea market. Every key has its own spring and its own \
+opinion. It types like a small typewriter, and I love it."""
+
+[[post]]
+key = "ines-1"
+by = "ines"
+group = "feed:ines"
+subject = "Above the clouds"
+pictures = ["lake"]
+body = """Three days up the valley to reach this lake. Cold enough that the coffee \
+froze at the edges. Worth every step."""
+
+[[post]]
+key = "ines-2"
+by = "ines"
+group = "feed:ines"
+subject = "The Milky Way over the dunes"
+pictures = ["stars"]
+body = """No moon, no clouds, no light for fifty kilometres. Just sand and the whole \
+galaxy."""
+
+# --- the shared feed ---
+
+[[post]]
+key = "feed-market"
+by = "nadia"
+group = "feed"
+subject = "Bread at the market on Saturday"
+body = """I will have a stall at the Saturday market: sourdough, rye, and cinnamon \
+buns while they last. Tomas promised honey."""
+
+[[post]]
+key = "feed-market-c1"
+by = "tomas"
+group = "feed"
+reply_to = "feed-market"
+body = "Honey from hives three and five. The light one goes fast."
+
+[[post]]
+key = "feed-market-c2"
+by = "mira"
+group = "feed"
+reply_to = "feed-market"
+body = "Save me a cinnamon bun. Two. Biscuit doesn't need to know."
+
+[[post]]
+key = "feed-walk"
+by = "ines"
+group = "feed"
+subject = "Autumn walk on Sunday"
+pictures = ["forest"]
+body = """Easy walk through the beech forest and down to the coast, about 12 km. \
+Meet at the old station at nine. Dogs welcome, guinea pigs probably not."""
+
+[[post]]
+key = "feed-walk-c1"
+by = "ole"
+group = "feed"
+reply_to = "feed-walk"
+body = "I'll bring a handheld radio - there's a hill on the way with a view all the way to Sweden."
+
+# --- the discussion group ---
+
+[[post]]
+key = "discuss-start"
+by = "ole"
+group = "discuss"
+subject = "How do you all read this - which client?"
+body = """I use the terminal client on an old laptop, from a USB stick. It feels a \
+bit like reading news in 1993, in the best way. What do you use?"""
+
+[[post]]
+key = "discuss-start-r1"
+by = "mira"
+group = "discuss"
+reply_to = "discuss-start"
+body = """The graphical one, in a browser window. I like that the pictures just \
+show up - and that their metadata is gone before they leave my machine."""
+
+[[post]]
+key = "discuss-start-r2"
+by = "ines"
+group = "discuss"
+reply_to = "discuss-start-r1"
+body = """Same, on my phone, through the web entrance. And the terminal one when I \
+am somewhere without a decent connection."""
+
+[[post]]
+key = "discuss-names"
+by = "tomas"
+group = "discuss"
+subject = "What is the long thing after the @ in group names?"
+body = """Every group here is called something@abcd... - is that a server, like in \
+email?"""
+
+[[post]]
+key = "discuss-names-r1"
+by = "nadia"
+group = "discuss"
+reply_to = "discuss-names"
+body = """It is the owner's fingerprint, not a server. Anybody can make a group \
+called "bread", but only one person owns bread@<their key>. So you always know whose \
+group you are in, and nobody can take it over."""
+
+# --- photos ---
+
+[[post]]
+key = "photos-coast"
+by = "ines"
+group = "photos"
+subject = "Cliffs at sunset"
+pictures = ["coast"]
+body = "From the end of Sunday's walk."
+
+[[post]]
+key = "photos-town"
+by = "nadia"
+group = "photos"
+subject = "Blue hour in the old town"
+pictures = ["town"]
+body = "Walked home the long way after closing the stall."
+
+[[post]]
+key = "photos-radio"
+by = "ole"
+group = "photos"
+subject = "Radio heaven, Akihabara"
+pictures = ["radio"]
+body = "A whole shop of radios, years ago. I left with less money and more cables."
+
+[[post]]
+key = "photos-tea"
+by = "mira"
+group = "photos"
+subject = "Tea break"
+pictures = ["tea"]
+body = "The guinea pigs are asleep. This is my moment."

@@ -1,0 +1,44 @@
+# The fictional people of the demo. Each has a key derived from the demo seed and their
+# name here (`key`), a profile, a picture and a personal feed. Nobody here is real.
+
+[demo]
+display = "Unseenet Demo"
+about = """The demo of [Unseenet](https://unseenet.org): a few made-up people, their \
+groups and feeds, so there is something to look at. Everything is reset every Monday \
+- comment as you like."""
+links = ["web=https://github.com/unseenet/unseenet-demo"]
+picture = "stars"
+
+[mira]
+display = "Mira Holm"
+about = """Two guinea pigs, Pepper and Biscuit, and far too many opinions about hay. \
+Library assistant by day."""
+links = ["web=https://example.org/mira"]
+lang = ["en", "da"]
+picture = "guineapig"
+
+[tomas]
+display = "Tomas Berg"
+about = "Beekeeper with six hives behind the old school. Ask me about swarms (please don't swarm)."
+lang = ["en"]
+picture = "bees"
+
+[nadia]
+display = "Nadia Ruiz"
+about = """I bake bread before the sun is up and write about it after. Sourdough \
+starter: 9 years old, called Gordon."""
+lang = ["en", "es"]
+picture = "bread"
+
+[ole]
+display = "Ole K."
+about = """Radio amateur since the eighties. Antennas, old keyboards, and the quiet \
+joy of a contact on the other side of the world."""
+lang = ["en", "da"]
+picture = "antenna"
+
+[ines]
+display = "Ines Varga"
+about = "Walks a lot, looks up at night. Trails, lakes and the Milky Way."
+lang = ["en", "hu"]
+picture = "lake"

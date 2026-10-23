@@ -1,0 +1,6 @@
+demo.vault*
+state.json
+*.seed
+.page-*.md
+local.toml
+__pycache__/

@@ -1,0 +1,15 @@
+# The chat room, line by line, in order. A chat line has no subject.
+
+lines = [
+  ["ole", "morning all"],
+  ["mira", "morning! Pepper is already shouting for breakfast"],
+  ["nadia", "I have been up since 3. the rye is out, the white is in"],
+  ["tomas", "bees are out too. warm day coming"],
+  ["ines", "anyone up for the walk on Sunday? the forest is turning"],
+  ["ole", "I'm in. I'll bring the radio"],
+  ["mira", "of course you will"],
+  ["nadia", "I'll bring buns 🥐"],
+  ["tomas", "and I'll bring honey for the buns"],
+  ["ines", "this is turning into a picnic"],
+  ["ole", "the best walks are"],
+]
