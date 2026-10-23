@@ -138,10 +138,15 @@ class Demo:
             if p.get("picture"):
                 args += ["--picture", self.picture(p["picture"]), "--alt", p["display"]]
             self.run(*args, who=name)
-            if name != "demo":
-                self.run("feed-start", "--yes", who=name)
             self.state["profiles"][name] = digest
             self.save()
+
+    def feeds(self) -> None:
+        """Every person's personal feed, taking pictures (also one started without)."""
+        print("Personal feeds")
+        for name in self.people:
+            if name != "demo":
+                self.run("feed-start", "--attachments", 1048576, "--types", "image/*", "--yes", who=name)
 
     def posts(self) -> None:
         print("Posts")
@@ -223,6 +228,7 @@ class Demo:
         self.identities()
         self.make_groups()
         self.profiles()
+        self.feeds()
         self.posts()
         self.chat()
         self.site()
