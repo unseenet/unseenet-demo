@@ -1,0 +1,59 @@
+# Mira's pool. `season` is spring, summer, autumn, winter or any; `pictures` are
+# themes (or picture names). A post is used again once the earlier one has expired.
+
+[[post]]
+subject = "Leaf piles are guinea pig heaven"
+season = "autumn"
+pictures = ["guineapigs"]
+body = """Raked the garden and brought in a bag of dry leaves (no pesticides, only from \
+our own trees). Pepper vanished into the pile at once. Biscuit ate the pile."""
+comments = [{by = "ines", body = "Biscuit has the right idea."}]
+
+[[post]]
+subject = "The great hay debate"
+season = "any"
+body = """Biscuit refuses the new bag of hay. Same farm, same field, same everything. \
+He sniffs it, looks at me, and walks away. I have been judged by a guinea pig."""
+comments = [{by = "nadia", body = "Gordon does the same with new flour. Picky eaters, all of them."},
+            {by = "tomas", body = "Maybe it's the second cut. Mine only eat the first."}]
+
+[[post]]
+subject = "Vet day"
+season = "any"
+body = """Annual check-up for both. Teeth fine, weight fine, nails trimmed. Pepper \
+squeaked the whole time; Biscuit fell asleep in the vet's hands. Two very different \
+animals."""
+
+[[post]]
+subject = "Pumpkin, guinea pig approved"
+season = "autumn"
+pictures = ["guineapig"]
+body = """Bits of pumpkin (no seeds, just the flesh) are apparently the best thing that \
+ever happened. Small pieces, a few times a week - but try telling them that."""
+
+[[post]]
+subject = "Library book sale"
+season = "any"
+body = """We sold 400 old books at the library today. I bought six. That is not \
+how a book sale is supposed to work for the staff."""
+comments = [{by = "ole", body = "Any old radio manuals? Asking for a friend. The friend is me."}]
+
+[[post]]
+subject = "A new hideout"
+season = "any"
+body = """Built them a hideout from an old wooden crate. Sanded it, no nails sticking \
+out, two doors so nobody gets cornered. They ignored it for a day, and now they \
+won't leave it."""
+
+[[post]]
+subject = "First frost"
+season = "autumn"
+body = """Frost on the lawn this morning, so no more garden time for the pigs until \
+spring. Pepper stood at the door and complained. I know, Pepper. I know."""
+
+[[post]]
+subject = "Reading corner"
+season = "any"
+pictures = ["home"]
+body = """Rainy Sunday. Tea, a blanket, a stack of library books, and two guinea pigs \
+wheeking every time the fridge opens."""

@@ -1,0 +1,56 @@
+[[post]]
+subject = "Cardamom knots"
+season = "autumn"
+pictures = ["bread"]
+body = """It is cardamom season. Freshly ground, never from a jar - you smell the \
+difference before the oven is even on. The knots sold out by nine."""
+comments = [{by = "mira", body = "I was there at 9:05. Tragic."}]
+
+[[post]]
+subject = "Gordon's birthday"
+season = "any"
+body = """Gordon (my starter) turned nine this week. I fed him rye flour and warm \
+water and told him he is a good boy. He bubbled. I think he heard me."""
+comments = [{by = "ole", body = "Happy birthday, Gordon. Many happy loaves."},
+            {by = "tomas", body = "Does Gordon like honey? Asking for a recipe."}]
+
+[[post]]
+subject = "Why the crust sings"
+season = "any"
+pictures = ["bread"]
+body = """When a hot loaf comes out of the oven it crackles as it cools - the crust \
+shrinks and cracks. Bakers call it singing. If you listen, you'll never stop \
+listening."""
+
+[[post]]
+subject = "Apple and walnut"
+season = "autumn"
+body = """Apples from Mira's tree and walnuts from the market. A dense, honest loaf \
+that is better on the second day, with cheese."""
+comments = [{by = "mira", body = "My tree is proud."}]
+
+[[post]]
+subject = "The first loaf of the new flour"
+season = "autumn"
+pictures = ["bakery"]
+body = """The new harvest came in, and the first loaf always tastes of the field. \
+Nobody believes me until they try it."""
+
+[[post]]
+subject = "A day off"
+season = "any"
+body = """The bakery is closed on Wednesdays, so I bake at home. Bread is still my \
+favourite way to rest. Nobody understands this."""
+
+[[post]]
+subject = "Rye, slowly"
+season = "any"
+body = """Rye wants time: two days from starter to slice. Dark, sour, full of \
+seeds. It is not fast food, and that is the point."""
+
+[[post]]
+subject = "A loaf for the walkers"
+season = "autumn"
+body = """Packed a loaf, butter and cheese for Ines' walk on Sunday. If you come, you \
+eat. Those are the rules."""
+comments = [{by = "ines", body = "Best rules I've ever heard."}]

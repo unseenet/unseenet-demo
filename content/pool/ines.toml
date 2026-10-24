@@ -1,0 +1,56 @@
+[[post]]
+subject = "Beech forest in October"
+season = "autumn"
+pictures = ["autumn"]
+body = """The beeches have turned copper, and the path is a carpet. Walked for three \
+hours and met nobody but a deer, who did not stay to chat."""
+comments = [{by = "tomas", body = "The best month for walking. My bees agree - they're all at home."}]
+
+[[post]]
+subject = "Down to the sea"
+season = "any"
+pictures = ["sea"]
+body = """Walked the coast path to the cliffs. Wind straight from the sea, gulls \
+hanging still in it. You come home tired and salty and very happy."""
+
+[[post]]
+subject = "Mountain lake, again"
+season = "any"
+pictures = ["mountains"]
+body = """Back at the lake from the summer, now with a thin skin of ice at the edge. \
+The water is so clear you can see every stone on the bottom."""
+
+[[post]]
+subject = "What I carry"
+season = "any"
+body = """People ask what I take on a day walk: water, a thermos, a jumper even in \
+summer, a map, a torch, a plaster or two, and one of Nadia's buns. The bun is not \
+optional."""
+comments = [{by = "nadia", body = "Correct."}]
+
+[[post]]
+subject = "The night sky from the dunes"
+season = "any"
+pictures = ["night sky"]
+body = """Out on the dunes until midnight. Once your eyes get used to the dark, the \
+sky fills up: first a few stars, then hundreds, then the Milky Way like a cloud."""
+
+[[post]]
+subject = "Fog walk"
+season = "autumn"
+pictures = ["hiking"]
+body = """Thick fog this morning. The trail just disappeared ten metres ahead, and \
+every sound was close and soft. Strange and beautiful."""
+
+[[post]]
+subject = "Blisters"
+season = "any"
+body = """New boots, short walks first. I always forget, and my heels always remind \
+me."""
+comments = [{by = "mira", body = "Pepper sends sympathy. She doesn't wear boots, though."}]
+
+[[post]]
+subject = "Planning the next walk"
+season = "any"
+body = """Next Sunday: the old railway line to the lake and back, about 15 km, flat \
+the whole way. Bring a sandwich. Nadia brings the rest."""

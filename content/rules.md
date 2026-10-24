@@ -1,5 +1,5 @@
 **This is a demo.** Comment, reply, chat and try things as you like - but know that
-**everything here is reset every Monday**: the demo's own posts come back, and
-everything else, yours too, is withdrawn.
+**every Monday, everything visitors wrote here is withdrawn**, yours too. The demo's
+own people go on posting.
 
 The people here are made up. Be kind to them anyway.

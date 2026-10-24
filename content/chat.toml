@@ -1,5 +1,7 @@
-# The chat room, line by line, in order. A chat line has no subject.
+# The chat room: conversations, one is posted each week (not one that is there
+# now). A chat line has no subject.
 
+[[talk]]
 lines = [
   ["ole", "morning all"],
   ["mira", "morning! Pepper is already shouting for breakfast"],
@@ -12,4 +14,42 @@ lines = [
   ["tomas", "and I'll bring honey for the buns"],
   ["ines", "this is turning into a picnic"],
   ["ole", "the best walks are"],
+]
+
+[[talk]]
+lines = [
+  ["mira", "does anyone know a good hay farm? Biscuit has rejected my life choices"],
+  ["tomas", "the farm behind the church. same field as my bees"],
+  ["mira", "so it's bee-approved hay"],
+  ["tomas", "everything there is bee-approved"],
+  ["nadia", "Gordon would like that farm's rye too"],
+]
+
+[[talk]]
+lines = [
+  ["ines", "clear sky tonight 🌌"],
+  ["ole", "and the bands are open. good night for both of us"],
+  ["ines", "come out to the dunes, bring the handheld"],
+  ["ole", "if it's warm. it's never warm"],
+  ["nadia", "I'll be asleep. some of us get up at 3"],
+  ["mira", "some of us have guinea pigs who get up at 5"],
+]
+
+[[talk]]
+lines = [
+  ["nadia", "market on Saturday, who's coming?"],
+  ["tomas", "honey and candles"],
+  ["mira", "me, for buns"],
+  ["ole", "I'll bring the old radio, maybe someone wants it"],
+  ["ines", "I'll come after the walk. save me something"],
+  ["nadia", "always 🙂"],
+]
+
+[[talk]]
+lines = [
+  ["tomas", "storm warning for tonight, strap things down"],
+  ["ole", "antenna's already down"],
+  ["mira", "pigs are inside, hideout's cosy"],
+  ["ines", "walk postponed. tea instead ☕"],
+  ["nadia", "the oven will keep the bakery warm. come by tomorrow if your power goes"],
 ]

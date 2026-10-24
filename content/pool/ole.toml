@@ -1,0 +1,55 @@
+[[post]]
+subject = "Japan on twenty metres"
+season = "autumn"
+pictures = ["antenna"]
+body = """Early morning, coffee, and a station in Japan coming through clearly on 20 \
+metres. Five minutes of talk across nine thousand kilometres with a wire on a mast. \
+Still magic, forty years on."""
+comments = [{by = "mira", body = "What did you talk about?"},
+            {by = "ole", body = "Weather, antennas, and his cat. The usual."}]
+
+[[post]]
+subject = "QSL cards"
+season = "any"
+body = """Sorted my postcards from other radio amateurs - each contact confirmed with \
+a card in the post. Some are from the eighties. Every one is a little story."""
+
+[[post]]
+subject = "Fixing an old radio"
+season = "any"
+pictures = ["keyboard"]
+body = """Found a radio from the sixties at a flea market. One bad capacitor, one \
+broken dial cord, and a lot of dust. It plays again. Warm valves, warm sound."""
+comments = [{by = "tomas", body = "Bring it to the market, people love old things that work."}]
+
+[[post]]
+subject = "Storm coming"
+season = "autumn"
+body = """Antenna down for the storm tonight. A mast in a gale is a sail, and I'd \
+like to keep both the mast and the roof."""
+
+[[post]]
+subject = "Morse, still"
+season = "any"
+body = """People ask why I still use Morse code. It gets through when nothing else \
+does, it needs almost no power, and it is a quiet kind of conversation. Dah-di-dah."""
+
+[[post]]
+subject = "A shop full of radios"
+season = "any"
+pictures = ["radio"]
+body = """Found my old photos from Akihabara. Whole floors of radio parts, and people \
+who knew every single one of them."""
+
+[[post]]
+subject = "The grey line"
+season = "autumn"
+body = """At sunset the line between day and night carries signals unusually far. This \
+evening it carried me to Brazil for a few minutes. Then it moved on, as it does."""
+
+[[post]]
+subject = "Teaching the basics"
+season = "any"
+body = """Three people came to the club evening to learn about radio. We built a \
+simple receiver from a kit. When it first crackled into life, everybody grinned."""
+comments = [{by = "nadia", body = "I would come, if it doesn't start before five."}]

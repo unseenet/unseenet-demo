@@ -1,12 +1,10 @@
 # The demo's groups, owned by the demo key. `name` is put after the prefix in demo.toml
 # (e.g. unseenet.demo); an empty name is the prefix itself. Their rules say plainly that
-# everything is reset every Monday; retention_days = 14 is the safety net if a reset
-# fails - old posts then go by themselves (pins and pages are kept articles, which
-# the reset renews).
+# visitors' posts are withdrawn every Monday. Posts go by themselves after the default
+# 90 days; pinned posts and pages are kept articles and stay.
 
 [discuss]
 name = ""
-retention_days = 14
 type = "open"
 title = "Unseenet Demo: discussion"
 description = "Threads and replies. Say hello, ask anything - it is reset every Monday."
@@ -14,7 +12,6 @@ rules = "rules.md"
 
 [chat]
 name = "chat"
-retention_days = 14
 type = "open"
 view = "chat"
 kinds = "chat"
@@ -24,7 +21,6 @@ rules = "rules.md"
 
 [feed]
 name = "feed"
-retention_days = 14
 type = "channel"
 view = "feed"
 comments = "open"
@@ -38,7 +34,6 @@ types = "image/*"
 
 [photos]
 name = "photos"
-retention_days = 14
 type = "open"
 attachments = 1048576
 types = "image/*"
@@ -48,7 +43,6 @@ rules = "rules.md"
 
 [site]
 name = "site"
-retention_days = 14
 type = "channel"
 view = "pages"
 posters = ["mira"]

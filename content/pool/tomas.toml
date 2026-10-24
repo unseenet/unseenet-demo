@@ -1,0 +1,54 @@
+[[post]]
+subject = "Ivy, the last flowers of the year"
+season = "autumn"
+pictures = ["bees"]
+body = """The ivy along the churchyard wall is in flower, and it is humming. Last \
+pollen of the year - the bees bring it home in little yellow-green parcels."""
+comments = [{by = "ines", body = "I walked past that wall yesterday and wondered what the noise was."}]
+
+[[post]]
+subject = "Robbing season"
+season = "autumn"
+body = """Hive five tried to rob hive two today. Entrances narrowed, no syrup spilled, \
+and an hour of standing guard. Bees are lovely, but they are also small pirates."""
+
+[[post]]
+subject = "Candles from old comb"
+season = "any"
+body = """Melted down the old dark comb. Strained it twice through cotton, poured it \
+into moulds. The whole house smells of honey and smoke. Candles for the market."""
+comments = [{by = "nadia", body = "Put them next to my stall, people will want both."}]
+
+[[post]]
+subject = "The heaviest hive"
+season = "autumn"
+pictures = ["hive"]
+body = """Hefting hives before winter. Hive three is so heavy I can hardly tip it. \
+That colony will be fine whatever January does."""
+
+[[post]]
+subject = "Why the bees fly in a line"
+season = "any"
+body = """Someone asked me why bees seem to fly in a straight line to the same tree. \
+They tell each other where the food is with a dance - direction and distance. I have \
+watched it a hundred times and I still find it hard to believe."""
+
+[[post]]
+subject = "A new beekeeper"
+season = "any"
+body = """My neighbour's daughter wants to learn. We opened a hive together today - \
+veil, gloves, slow hands. She was braver than I was at her age."""
+comments = [{by = "mira", body = "I would love to watch, from a very safe distance."}]
+
+[[post]]
+subject = "Honey in the light"
+season = "any"
+pictures = ["bees"]
+body = """Held a jar up to the window: this year's lime honey is almost green. \
+Every summer tastes a little different, and you can see it."""
+
+[[post]]
+subject = "Mouse guards"
+season = "autumn"
+body = """The mouse guards are on. A mouse in a hive in winter eats the comb and \
+makes a nest, and the bees are too cold to throw it out."""

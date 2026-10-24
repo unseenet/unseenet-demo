@@ -7,7 +7,10 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0",
     "author": "Vyacheslav Argenberg",
     "description": "Honey from sweet plains is among Shan State's best-known local commodities. Pangetkon, Kalaw, Shan Hills, Myanmar.",
-    "file": "content/pictures/bees.jpg"
+    "file": "content/pictures/bees.jpg",
+    "themes": [
+      "bees"
+    ]
   },
   "hive": {
     "title": "File:2026-05-24 Apiary at Passadiços do Mondego 1.jpg",
@@ -17,7 +20,11 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0",
     "author": "Alexkom000",
     "description": "Apiary at Passadiços do Mondego",
-    "file": "content/pictures/hive.jpg"
+    "file": "content/pictures/hive.jpg",
+    "themes": [
+      "bees",
+      "garden"
+    ]
   },
   "antenna": {
     "title": "File:Antenna-178969.jpg",
@@ -27,7 +34,10 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "author": "Merja Partanen, Mikkeli, Finland",
     "description": "amateur radio HF and UHF Yagi antennas",
-    "file": "content/pictures/antenna.jpg"
+    "file": "content/pictures/antenna.jpg",
+    "themes": [
+      "radio"
+    ]
   },
   "radio": {
     "title": "File:Amateur radio equipment - Yamamoto Musen, Akihabara Radio Center (2011-03-11 10.47.24 by Hikosaemon).jpg",
@@ -37,7 +47,11 @@
     "license_url": "https://creativecommons.org/licenses/by/2.0",
     "author": "Hikosaemon from Tokyo, Japan",
     "description": "山本無線 (株), 東京都千代田区外神田1-14-2 ラジオセンター Flickr Tags: Tokyo Akihabara 秋葉原 東京 オタク Otaku Japan creativecommons Akiba.",
-    "file": "content/pictures/radio.jpg"
+    "file": "content/pictures/radio.jpg",
+    "themes": [
+      "radio",
+      "travel"
+    ]
   },
   "bread": {
     "title": "File:Sourdough Loaf (217346645).jpeg",
@@ -47,7 +61,10 @@
     "license_url": "https://creativecommons.org/licenses/by/3.0",
     "author": "Dana Hutchinson",
     "description": "500px provided description: Finally found a good Sourdough Recipe with easy to follow instructions. This one came out looking the way a sourdough loaf should and it tasted fantastic! AS good as anythi",
-    "file": "content/pictures/bread.jpg"
+    "file": "content/pictures/bread.jpg",
+    "themes": [
+      "bread"
+    ]
   },
   "bakery": {
     "title": "File:Bakery oven bread, 2013.jpg",
@@ -57,7 +74,10 @@
     "license_url": "https://creativecommons.org/licenses/by/2.0",
     "author": "Jarkko Laine",
     "description": "Backen von Brot in einem modernen Bäckereiofen in einem Betrieb des Traditionsbäckerei-Unternehmens „Kanniston Leipomo“ in Helsinki in Finnland.",
-    "file": "content/pictures/bakery.jpg"
+    "file": "content/pictures/bakery.jpg",
+    "themes": [
+      "bread"
+    ]
   },
   "trail": {
     "title": "File:Hiking trail on Námafjall Mountain, Iceland, 20240716 1130 1346.jpg",
@@ -67,7 +87,10 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0",
     "author": "Jakub Hałun",
     "description": "Hiking trail on Námafjall Mountain, Iceland",
-    "file": "content/pictures/trail.jpg"
+    "file": "content/pictures/trail.jpg",
+    "themes": [
+      "hiking"
+    ]
   },
   "lake": {
     "title": "File:Mountains in snow, Mountain lake, Chola Valley, Nepal, Himalayas.jpg",
@@ -77,7 +100,11 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0",
     "author": "Vyacheslav Argenberg",
     "description": "Mountains in snow. Mountain lake. View to the east on descending from Cho La Pass into Chola Valley, 5,200 metres (17,100 ft) a. s. l. Glacial lake, rocks covered with snow, Ama Dablam (6,810 metres (",
-    "file": "content/pictures/lake.jpg"
+    "file": "content/pictures/lake.jpg",
+    "themes": [
+      "hiking",
+      "mountains"
+    ]
   },
   "guineapig": {
     "title": "File:Sasu the Guinea Pig (26722155994).png",
@@ -87,7 +114,10 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "author": "Andy Miccone from Finland",
     "description": "The Organic Lawnmower",
-    "file": "content/pictures/guineapig.jpg"
+    "file": "content/pictures/guineapig.jpg",
+    "themes": [
+      "guineapigs"
+    ]
   },
   "guineapigs": {
     "title": "File:Guinea pigs at Pata Zoo in 2023.jpg",
@@ -97,7 +127,10 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0",
     "author": "Asamoto",
     "description": "A photograph of two guinea pigs in their enclosure, which includes hay, a wooden house, and a feeding dish. This area is part of the petting zoo. The photo was taken in 2023.",
-    "file": "content/pictures/guineapigs.jpg"
+    "file": "content/pictures/guineapigs.jpg",
+    "themes": [
+      "guineapigs"
+    ]
   },
   "forest": {
     "title": "File:Forest path during autumn.jpg",
@@ -107,7 +140,11 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "author": "Paxxen",
     "description": "autumn path",
-    "file": "content/pictures/forest.jpg"
+    "file": "content/pictures/forest.jpg",
+    "themes": [
+      "hiking",
+      "autumn"
+    ]
   },
   "coast": {
     "title": "File:Olkhon Island, Capes, cliffs at sunset, Lake Baikal, Russia.jpg",
@@ -117,7 +154,11 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0",
     "author": "Vyacheslav Argenberg",
     "description": "Panoramic view of the northwestern capes of the Olkhon Island coast: Damnuriy, Khara-Under, Khoboy, seen from the cliffs of Cape Sagan-Khushun. Complex tectonics and metamorphism make it difficult to ",
-    "file": "content/pictures/coast.jpg"
+    "file": "content/pictures/coast.jpg",
+    "themes": [
+      "hiking",
+      "sea"
+    ]
   },
   "town": {
     "title": "File:Herzog-Friedrich-Straße in Innsbruck's Historic Old Town, Austria.jpg",
@@ -127,7 +168,10 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "author": "Wilfredor",
     "description": "Herzog-Friedrich-Straße is a historic street in the Altstadt (Old Town) of Innsbruck, Tyrol, Austria. Named after Frederick IV, Duke of Austria, it forms part of the city's medieval commercial center ",
-    "file": "content/pictures/town.jpg"
+    "file": "content/pictures/town.jpg",
+    "themes": [
+      "town"
+    ]
   },
   "stars": {
     "title": "File:Milky Way over dunes in Great Sand Dunes National Park, Colorado, United States.jpg",
@@ -137,7 +181,10 @@
     "license_url": "",
     "author": "NPS/Patrick Myers",
     "description": "Milky Way over dunes in Great Sand Dunes National Park, Colorado, United States",
-    "file": "content/pictures/stars.jpg"
+    "file": "content/pictures/stars.jpg",
+    "themes": [
+      "night sky"
+    ]
   },
   "keyboard": {
     "title": "File:Plate-mount vintage keyboard.jpg",
@@ -147,7 +194,11 @@
     "license_url": "",
     "author": "User:Daniel beardsmore",
     "description": "Type 1 Acorn BBC Microcomputer keyboard showing plate-mount switches; in the BBC Micro, it is the PCB that is secured to the case, and not the steel plate",
-    "file": "content/pictures/keyboard.jpg"
+    "file": "content/pictures/keyboard.jpg",
+    "themes": [
+      "radio",
+      "computers"
+    ]
   },
   "tea": {
     "title": "File:A cup of warm tea.jpg",
@@ -157,6 +208,9 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "author": "Fitrah 9131",
     "description": "A cup of warm tea on the table",
-    "file": "content/pictures/tea.jpg"
+    "file": "content/pictures/tea.jpg",
+    "themes": [
+      "home"
+    ]
   }
 }
