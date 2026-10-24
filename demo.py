@@ -113,7 +113,8 @@ class Demo:
                 continue
             args = ["group-create", gid.rsplit("@", 1)[0], "--type", g["type"],
                     "--title", g.get("title", ""), "--description", g.get("description", "")]
-            for opt in ("view", "comments", "kinds", "max_pins", "max_pages", "home", "attachments", "types"):
+            for opt in ("view", "comments", "kinds", "max_pins", "max_pages", "home", "attachments", "types",
+                        "retention_days"):
                 if opt in g:
                     args += [f"--{opt.replace('_', '-')}", g[opt]]
             if g.get("rules"):
@@ -126,15 +127,17 @@ class Demo:
             self.save()
 
     def sync_files(self, gid: str, g: dict) -> None:
-        """A group made before groups.toml gave it files: give it the setting now."""
-        if "attachments" not in g:
-            return
-        want = {"max_size": g["attachments"]} | ({"types": g["types"].split(",")} if g.get("types") else {})
-        if self.run("group-show", gid, who="demo").get("attachments") != want:
-            args = ["group-edit", gid, "--attachments", g["attachments"]]
-            if g.get("types"):
-                args += ["--types", g["types"]]
-            self.run(*args, who="demo")
+        """A group made before groups.toml gave it files or its retention: set them now."""
+        have = self.run("group-show", gid, who="demo")
+        args = []
+        if "attachments" in g:
+            want = {"max_size": g["attachments"]} | ({"types": g["types"].split(",")} if g.get("types") else {})
+            if have.get("attachments") != want:
+                args += ["--attachments", g["attachments"]] + (["--types", g["types"]] if g.get("types") else [])
+        if "retention_days" in g and have.get("retention_days") != g["retention_days"]:
+            args += ["--retention-days", g["retention_days"]]
+        if args:
+            self.run("group-edit", gid, *args, who="demo")
 
     def profiles(self) -> None:
         print("Profiles and feeds")
