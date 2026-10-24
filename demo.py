@@ -260,6 +260,11 @@ class Demo:
             if not path.exists():
                 continue
             items = tomllib.loads(path.read_text()).get("post", [])
+            pool_subjects = {i["subject"] for i in items}
+            if any(p["subject"] in pool_subjects
+                   for g in {self.group_id(i.get("group", f"feed:{name}")) for i in items}
+                   for p in self.this_week(g, name)):
+                continue                              # this week's is there already
             free = [i for i in items if i.get("season", "any") in (season, "any")
                     and not self.exists(self.group_id(i.get("group", f"feed:{name}")), name, subject=i["subject"])]
             rng.shuffle(free)
@@ -281,6 +286,8 @@ class Demo:
         chats = tomllib.loads((CONTENT / "chat.toml").read_text())
         talks = chats.get("talk", []) or [{"lines": chats.get("lines", [])}]
         gid = self.group_id("chat")
+        if any(self.this_week(gid, w) for w in self.people if w != "demo"):
+            return                                    # this week's talk is there already
         free = [t for t in talks if not any(self.exists(gid, w, body=line) for w, line in t["lines"][:1])]
         if free:
             talk = random.Random(str(self.today.isocalendar()[:2])).choice(free)
@@ -302,15 +309,18 @@ class Demo:
         that answers. Tried once each - free models fail often, and fails count."""
         for model in llm.get("models", []):
             body = json.dumps({"model": model, "messages": [{"role": "user", "content": prompt}],
-                               "temperature": 0.9, "max_tokens": 400}).encode()
+                               "temperature": 0.9, "max_tokens": 1200}).encode()
             req = urllib.request.Request(llm["url"].rstrip("/") + "/chat/completions", data=body,
                                          headers={"Content-Type": "application/json",
                                                   **({"Authorization": f"Bearer {llm['key']}"} if llm["key"] else {})})
             try:
                 with urllib.request.urlopen(req, timeout=120) as r:
-                    text = json.load(r)["choices"][0]["message"]["content"]
+                    text = json.load(r)["choices"][0]["message"].get("content") or ""
             except Exception as exc:  # noqa: BLE001 - any failure: try the next model
                 print(f"    {model}: {str(exc)[:100]}")
+                continue
+            if not text.strip():                     # e.g. a model that only "thought"
+                print(f"    {model}: an empty answer")
                 continue
             m = re.search(r"\{.*\}", text, re.S)
             try:
@@ -323,25 +333,57 @@ class Demo:
             print(f"    {model}: no usable answer")
         return None
 
+    def this_week(self, gid: str, who: str) -> list[dict]:
+        """The posts this person has in a group, written this (ISO) week."""
+        key, wk = self.keys[who]["key"], self.today.isocalendar()[:2]
+        out = []
+        for p in self.posts_in(gid):
+            try:
+                when = date.fromisoformat((p.get("date") or "")[:10])
+            except ValueError:
+                continue
+            if p["author_key"] == key and when.isocalendar()[:2] == wk and not p.get("references"):
+                out.append(p)
+        return out
+
+    def known_subjects(self, name: str) -> set[str]:
+        path = CONTENT / "pool" / f"{name}.toml"
+        pool = tomllib.loads(path.read_text()).get("post", []) if path.exists() else []
+        base = tomllib.loads((CONTENT / "posts.toml").read_text())["post"]
+        return {i["subject"] for i in pool} | {i.get("subject") for i in base if i.get("by") == name}
+
     def llm_posts(self) -> None:
+        """One post a week by each person from the language model - never stopping the
+        run: free models come and go, and an answer may be unusable."""
         llm = self.llm_config()
         if not llm:
             return
         print("Written by a language model")
-        season = almanac.season(self.today)
         for name in llm.get("people", [n for n in self.people if n != "demo"]):
-            p = self.people[name]
-            recent = [x["subject"] for x in self.posts_in(self.group_id(f"feed:{name}")) if x["subject"]][-8:]
-            prompt = (f"You write one short post for {p['display']}, a fictional person in a small, "
-                      f"friendly online village. About them: {p['about']} It is {season}, "
-                      f"{self.today:%d %B}. Recent posts, do not repeat them: {recent}. "
-                      "Write in English, warm and concrete, 2-4 sentences, no hashtags, nothing "
-                      "about real people, no advice that could hurt. Answer only with JSON: "
-                      '{"subject": "...", "body": "..."}')
-            out = self.ask(llm, prompt)
-            if out:
-                self.post({"by": name, "group": f"feed:{name}", "subject": out["subject"].strip(),
-                           "body": out["body"].strip()}, set())
+            try:
+                self.llm_post(llm, name)
+            except Exception as exc:  # noqa: BLE001 - the model is extra; the week goes on
+                print(f"    {name}: not written ({str(exc)[:120]})")
+
+    def llm_post(self, llm: dict, name: str) -> None:
+        """This week's post by one person from the model, unless it is there already."""
+        gid = self.group_id(f"feed:{name}")
+        made = self.known_subjects(name)
+        if any(p["subject"] not in made and not p["subject"].endswith(f"({almanac.week(self.today)})")
+               for p in self.this_week(gid, name)):
+            return                                    # this week's is there already
+        p = self.people[name]
+        recent = [x["subject"] for x in self.posts_in(gid) if x["subject"]][-8:]
+        prompt = (f"You write one short post for {p['display']}, a fictional person in a small, "
+                  f"friendly online village. About them: {p['about']} It is "
+                  f"{almanac.season(self.today)}, {self.today:%d %B}. Recent posts, do not repeat "
+                  f"them: {recent}. Write in English, warm and concrete, 2-4 sentences, no "
+                  "hashtags, nothing about real people, no advice that could hurt. Answer only "
+                  'with JSON: {"subject": "...", "body": "..."}')
+        out = self.ask(llm, prompt)
+        if out:
+            self.post({"by": name, "group": f"feed:{name}", "subject": out["subject"].strip(),
+                       "body": out["body"].strip()}, set())
 
     # --- the site ---
     def fill(self, text: str) -> str:

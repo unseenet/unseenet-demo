@@ -11,7 +11,9 @@ passphrase = "demo"               # the vault lives only for the run
 
 [llm]
 # OpenAI-compatible: OpenRouter's free models (ids ending in :free cost nothing).
-# Tried in order, once each; without OPENROUTER_API_KEY the demo runs without it.
+# Tried in order, once each (free models come and go: keep a few, openrouter/free last);
+# without OPENROUTER_API_KEY, or when none answers, the demo runs without it.
 url = "https://openrouter.ai/api/v1"
 key_env = "OPENROUTER_API_KEY"
-models = ["google/gemma-4-31b-it:free", "nvidia/nemotron-3-super-120b-a12b:free", "openrouter/free"]
+models = ["google/gemma-4-31b-it:free", "google/gemma-4-26b-a4b-it:free",
+          "thinkingmachines/inkling-small:free", "openrouter/free"]
