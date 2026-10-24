@@ -6,6 +6,7 @@
                       almanac. New posts for the pool are written separately
                       (tools/write_pool.py), and read by a person before they are used
     demo.py up        only make what is missing: people, groups, the base posts, the site
+                      and each person's own site
     demo.py down [--remove-groups]
                       withdraw everything; --remove-groups removes the groups for good
 
@@ -86,8 +87,9 @@ class Demo:
         return hmac.new(self.seed(), b"unseenet-demo/" + name.encode(), hashlib.sha256).hexdigest()
 
     def group_id(self, key: str) -> str:
-        if key.startswith("feed:"):
-            return f"feed@{self.keys[key[5:]]['fingerprint']}"
+        if key.startswith(("feed:", "site:")):             # a person's own feed or site
+            kind, _, who = key.partition(":")
+            return f"{kind}@{self.keys[who]['fingerprint']}"
         name = self.groups[key]["name"]
         return f"{self.prefix}{'.' + name if name else ''}@{self.keys['demo']['fingerprint']}"
 
@@ -397,29 +399,26 @@ class Demo:
             kind, arg = m.group(1), m.group(2)
             if kind == "address":
                 return f"unseenet:{self.group_id(arg)}"
-            if kind == "feed":
-                return f"unseenet:{self.group_id('feed:' + arg)}"
+            if kind in ("feed", "site"):
+                return f"unseenet:{self.group_id(kind + ':' + arg)}"
             if kind == "person":
                 return f"unseenet:{self.keys[arg]['fingerprint']}"
             if kind == "picture":
                 alt = (self.credits[arg]["description"] or arg)[:100].replace("]", ")")
                 return f"![{alt}](file:{self.picture(arg)})\n\n*{self.source_line(arg)}*"
             return m.group(0)
-        return re.sub(r"\{(address|feed|person|picture):([a-z]+)\}", sub, text)
+        return re.sub(r"\{(address|feed|site|person|picture):([a-z]+)\}", sub, text)
 
-    def site(self) -> None:
-        print("Site")
-        gid = self.group_id("site")
+    def pages_in(self, folder: Path) -> dict:
+        """The pages in a folder of content: path -> (title, text with its {...} filled)."""
         pages = {}
-        for f in sorted((CONTENT / "site").glob("*.md")):
+        for f in sorted(folder.glob("*.md")):
             head, _, text = f.read_text().partition("+++\n")[2].partition("+++\n")
             pages[f.stem] = (tomllib.loads(head)["title"], self.fill(text))
-        rows = "\n".join(f"| {n} | {c['author']} | {c['license']} | [{c['title'].removeprefix('File:')}]"
-                         f"({c['page']}) |" for n, c in self.credits.items())
-        pages["credits"] = ("Credits", "# Credits\n\nThe pictures come from Wikimedia Commons and "
-                            "keep their own licences: public domain, CC0 or CC BY.\n\n"
-                            "| Picture | By | Licence | Source |\n|---|---|---|---|\n" + rows
-                            + "\n\n[Back to the start](index)\n")
+        return pages
+
+    def put_pages(self, gid: str, pages: dict, who: str) -> None:
+        """Write the pages that are not there as they should be; leave the rest."""
         now = {p["page"]: p for p in self.posts_in(gid) if p.get("page")}
         for path, (title, text) in pages.items():
             expected = re.sub(r"\(file:([^)]+)\)",
@@ -429,8 +428,32 @@ class Demo:
                 continue
             tmp = ROOT / f".page-{path}.md"
             tmp.write_text(text)
-            self.run("page-put", gid, path, tmp, "--title", title, who="demo")
+            self.run("page-put", gid, path, tmp, "--title", title, who=who)
             tmp.unlink()
+
+    def personal_sites(self) -> None:
+        """Each person's own site (UN-RFC 0035 section 7): a home page and a page about
+        what they care about, from content/people/<name>/ - so a visitor can go from a
+        person to their feed and their site (unseenet#506). Only they write there."""
+        print("Personal sites")
+        for name in self.people:
+            folder = CONTENT / "people" / name
+            if name == "demo" or not folder.is_dir():
+                continue
+            self.run("site-start", "--attachments", 1048576, "--types", "image/*", "--yes", who=name)
+            self.put_pages(self.group_id(f"site:{name}"), self.pages_in(folder), who=name)
+
+    def site(self) -> None:
+        print("Site")
+        gid = self.group_id("site")
+        pages = self.pages_in(CONTENT / "site")
+        rows = "\n".join(f"| {n} | {c['author']} | {c['license']} | [{c['title'].removeprefix('File:')}]"
+                         f"({c['page']}) |" for n, c in self.credits.items())
+        pages["credits"] = ("Credits", "# Credits\n\nThe pictures come from Wikimedia Commons and "
+                            "keep their own licences: public domain, CC0 or CC BY.\n\n"
+                            "| Picture | By | Licence | Source |\n|---|---|---|---|\n" + rows
+                            + "\n\n[Back to the start](index)\n")
+        self.put_pages(gid, pages, who="demo")
 
     # --- the runs ---
     def withdraw_visitors(self) -> None:
@@ -452,6 +475,7 @@ class Demo:
         self.base()
         self.chat()
         self.site()
+        self.personal_sites()
 
     def weekly(self) -> None:
         self.identities()
@@ -463,6 +487,7 @@ class Demo:
         self.almanac_posts()
         self.chat()
         self.site()
+        self.personal_sites()
         print("Done for", almanac.week(self.today))
 
     def down(self, remove_groups: bool) -> None:
@@ -472,6 +497,7 @@ class Demo:
         for name in self.people:
             if name != "demo":
                 self.run("withdraw", self.group_id(f"feed:{name}"), "--all", "--yes", who=name, check=False)
+                self.run("withdraw", self.group_id(f"site:{name}"), "--all", "--yes", who=name, check=False)
         if remove_groups:
             for key in self.groups:
                 self.run("group-remove", self.group_id(key), "--reason", "the demo is taken down",
@@ -479,6 +505,7 @@ class Demo:
             for name in self.people:
                 if name != "demo":
                     self.run("group-remove", self.group_id(f"feed:{name}"), "--yes", who=name, check=False)
+                    self.run("group-remove", self.group_id(f"site:{name}"), "--yes", who=name, check=False)
 
 
 def main(argv: list[str]) -> None:
