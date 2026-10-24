@@ -109,6 +109,7 @@ class Demo:
         for key, g in self.groups.items():
             gid = self.group_id(key)
             if made.get(key) == gid:
+                self.sync_files(gid, g)
                 continue
             args = ["group-create", gid.rsplit("@", 1)[0], "--type", g["type"],
                     "--title", g.get("title", ""), "--description", g.get("description", "")]
@@ -123,6 +124,17 @@ class Demo:
             assert r["group"] == gid, (r, gid)
             made[key] = gid
             self.save()
+
+    def sync_files(self, gid: str, g: dict) -> None:
+        """A group made before groups.toml gave it files: give it the setting now."""
+        if "attachments" not in g:
+            return
+        want = {"max_size": g["attachments"]} | ({"types": g["types"].split(",")} if g.get("types") else {})
+        if self.run("group-show", gid, who="demo").get("attachments") != want:
+            args = ["group-edit", gid, "--attachments", g["attachments"]]
+            if g.get("types"):
+                args += ["--types", g["types"]]
+            self.run(*args, who="demo")
 
     def profiles(self) -> None:
         print("Profiles and feeds")

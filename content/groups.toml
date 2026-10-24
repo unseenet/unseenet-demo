@@ -28,6 +28,8 @@ title = "Around the village"
 description = "A shared feed: what the people of the demo are up to. Comment as you like."
 rules = "rules.md"
 max_pins = 3
+attachments = 1048576
+types = "image/*"
 
 [photos]
 name = "photos"
