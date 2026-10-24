@@ -53,3 +53,24 @@ season = "any"
 body = """Three people came to the club evening to learn about radio. We built a \
 simple receiver from a kit. When it first crackled into life, everybody grinned."""
 comments = [{by = "nadia", body = "I would come, if it doesn't start before five."}]
+
+[[post]]
+subject = "The magic of antennas"
+season = "autumn"
+written = "llm"
+pictures = ["autumn"]
+body = """I spent the morning adjusting my wire antenna to catch the changing autumn signals. There is a certain peace in fine-tuning the wires while the air turns crisp."""
+
+[[post]]
+subject = "Old keyboards"
+season = "autumn"
+written = "llm"
+pictures = ["home"]
+body = """There is nothing quite like the tactile click of my old mechanical keyboard while logging contacts. It makes the long evening sessions feel much more substantial."""
+
+[[post]]
+subject = "Radio club updates"
+season = "autumn"
+written = "llm"
+pictures = ["radio"]
+body = """The radio club is busy preparing for the colder months ahead. We are sharing tips on how to keep our vintage equipment running smoothly in the damp weather."""

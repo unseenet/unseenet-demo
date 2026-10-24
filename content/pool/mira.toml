@@ -78,3 +78,24 @@ season = "autumn"
 written = "llm"
 pictures = ["guineapigs"]
 body = """Pepper insists on nudging a fallen leaf into her tunnel every evening, while Biscuit gives me the hay-look even when the bowl is full. Their little wheeks at the sound of rustling autumn branches always remind me how much they love the season's subtle sounds."""
+
+[[post]]
+subject = "Putting the garden to bed"
+season = "autumn"
+written = "llm"
+pictures = ["garden"]
+body = """I spent the afternoon cutting back the spent bean vines and tucking straw around the kale that'll keep going through winter. The air smelled of damp soil and woodsmoke from the neighbor's chimney. Pepper and Biscuit supervised from their run, whiskers twitching at every rustle."""
+
+[[post]]
+subject = "Spiced pear tea and the holds shelf"
+season = "autumn"
+written = "llm"
+pictures = ["home"]
+body = """A patron brought me a jar of her homemade spiced pear preserves, so I've been stirring a spoonful into my afternoon tea all week. The holds shelf is full of ghost stories and cozy mysteries, exactly what the season asks for. I love how the library shifts its rhythm with the light."""
+
+[[post]]
+subject = "Kale thieves"
+season = "autumn"
+written = "llm"
+pictures = ["guineapigs"]
+body = """Biscuit has developed a shocking talent for pulling whole kale leaves through the bars of his run if I'm not quick enough. Pepper prefers to wait for the hand-delivered pieces, squeaking impatiently at my slowness. I've started growing extra just for them, which feels entirely reasonable."""
