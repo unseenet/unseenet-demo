@@ -53,13 +53,28 @@ def ask(llm: dict, key: str, prompt: str) -> str | None:
     return None
 
 
+def words(subject: str) -> set[str]:
+    return {w for w in re.findall(r"[a-z]+", subject.lower()) if len(w) > 3}
+
+
+def too_close(subject: str, taken: set[str]) -> bool:
+    """The same subject, or one sharing most of its words with a subject in any
+    person's pool ("Leaf piles" next to "Leaf piles are guinea pig heaven")."""
+    mine = words(subject)
+    for other in taken:
+        theirs = words(other)
+        if subject.lower() == other or (mine and len(mine & theirs) / len(mine) >= 0.6):
+            return True
+    return False
+
+
 def good(post, name: str, display: str, themes: set[str], taken: set[str]) -> dict | None:
     """A post worth a person's reading: the right shape and length, in the first person,
     not on a subject the pool has, no hashtags or links."""
     if not isinstance(post, dict):
         return None
     subject, body = str(post.get("subject", "")).strip(), str(post.get("body", "")).strip()
-    if not (3 <= len(subject) <= 70 and 60 <= len(body) <= 700) or subject.lower() in taken:
+    if not (3 <= len(subject) <= 70 and 60 <= len(body) <= 700) or too_close(subject, taken):
         return None
     first = body.split()[0].strip(",.").lower() if body.split() else ""
     if first in (name, display.split()[0].lower()) or re.search(r"#\w|https?://|\"\"\"|\\\\", body + subject):
@@ -95,19 +110,23 @@ def main() -> None:
     people = tomllib.loads((CONTENT / "people.toml").read_text())
     credits = json.loads((CONTENT / "pictures" / "credits.json").read_text())
     themes = {t for c in credits.values() for t in c.get("themes", [])}
+    everyone = set()                                 # every subject in every pool
+    for f in (CONTENT / "pool").glob("*.toml"):
+        everyone |= {i["subject"].lower() for i in tomllib.loads(f.read_text()).get("post", [])}
     written = 0
     for name, p in people.items():
         if name == "demo":
             continue
         path = CONTENT / "pool" / f"{name}.toml"
         pool = tomllib.loads(path.read_text()).get("post", []) if path.exists() else []
-        taken = {i["subject"].lower() for i in pool}
+        taken = everyone
+        facts = "".join(f"\n- {f}" for f in p.get("facts", []))
         prompt = (
             f"You are {p['display']}, a made-up person in a small, friendly online village. "
-            f"About you: {p['about']}\n\n"
+            f"About you: {p['about']}\nFacts about you - keep to them:{facts}\n\n"
             f"Write {args.per_person} short posts for your own feed for the {season}, each "
-            "in the first person (\"I\"), warm and concrete, 2-4 sentences, about your own "
-            "life and interests. Do not write about real people, places that can be found, "
+            "in the first person (\"I\"), warm and concrete, 2-4 sentences, about what the facts "
+            "say you write about - nothing else. Do not write about real people, places that can be found, "
             "politics, health advice or anything that could hurt. No hashtags, no links.\n"
             f"These subjects you have written about already - choose new ones: "
             f"{sorted(i['subject'] for i in pool)}\n"

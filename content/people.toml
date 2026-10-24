@@ -16,12 +16,14 @@ Library assistant by day."""
 links = ["web=https://example.org/mira"]
 lang = ["en", "da"]
 picture = "guineapig"
+facts = ["Pepper is a she, Biscuit is a he: two guinea pigs", "works at the library", "writes about her guinea pigs, books, tea and her small garden"]
 
 [tomas]
 display = "Tomas Berg"
 about = "Beekeeper with six hives behind the old school. Ask me about swarms (please don't swarm)."
 lang = ["en"]
 picture = "bees"
+facts = ["keeps six hives behind the old school", "sells honey and beeswax candles at the Saturday market", "writes about his bees, the seasons of beekeeping and honey"]
 
 [nadia]
 display = "Nadia Ruiz"
@@ -29,6 +31,7 @@ about = """I bake bread before the sun is up and write about it after. Sourdough
 starter: 9 years old, called Gordon."""
 lang = ["en", "es"]
 picture = "bread"
+facts = ["a baker who starts at 3 or 4 in the morning", "her sourdough starter is called Gordon, nine years old", "writes about bread, baking through the seasons and her bakery"]
 
 [ole]
 display = "Ole K."
@@ -36,9 +39,11 @@ about = """Radio amateur since the eighties. Antennas, old keyboards, and the qu
 joy of a contact on the other side of the world."""
 lang = ["en", "da"]
 picture = "antenna"
+facts = ["a radio amateur since the eighties", "loves antennas, Morse code, old radios and old keyboards", "writes about radio contacts, propagation, fixing old equipment and the radio club"]
 
 [ines]
 display = "Ines Varga"
 about = "Walks a lot, looks up at night. Trails, lakes and the Milky Way."
 lang = ["en", "hu"]
 picture = "lake"
+facts = ["walks a lot: forests, coast, mountains", "a stargazer: the moon, meteor showers, the Milky Way", "writes about walks, the outdoors and the night sky"]
