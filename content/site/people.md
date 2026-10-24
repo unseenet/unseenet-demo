@@ -6,13 +6,11 @@ title = "Who lives here"
 Five made-up people, each with a profile, a picture and a personal feed. Follow any
 of them - by their address or their fingerprint.
 
-| | Who | Their feed |
-|---|---|---|
-| 🐹 | **Mira Holm** - two guinea pigs and opinions about hay | `{feed:mira}` |
-| 🐝 | **Tomas Berg** - six hives behind the old school | `{feed:tomas}` |
-| 🍞 | **Nadia Ruiz** - bread before sunrise, a starter called Gordon | `{feed:nadia}` |
-| 📻 | **Ole K.** - antennas, old keyboards, contacts far away | `{feed:ole}` |
-| 🌌 | **Ines Varga** - trails, lakes and the Milky Way | `{feed:ines}` |
+- 🐹 **Mira Holm** - two guinea pigs and opinions about hay: `{feed:mira}`
+- 🐝 **Tomas Berg** - six hives behind the old school: `{feed:tomas}`
+- 🍞 **Nadia Ruiz** - bread before sunrise, a starter called Gordon: `{feed:nadia}`
+- 📻 **Ole K.** - antennas, old keyboards, contacts far away: `{feed:ole}`
+- 🌌 **Ines Varga** - trails, lakes and the Milky Way: `{feed:ines}`
 
 To follow a person: `{person:mira}` is Mira, for example. Following a person follows
 their personal feed and site, and any feed they list in their profile as theirs.
