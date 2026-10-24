@@ -132,9 +132,11 @@ class Demo:
         return {b for g in groups for p in self.posts_in(g) for b in p["blobs"]}
 
     def pick_picture(self, theme: str, in_use: set[str]) -> str | None:
-        """A picture with this theme that no post uses now (or the name itself)."""
-        if theme in self.credits:
-            return theme
+        """A picture with this theme that no post uses now - or, when it is no theme,
+        the picture of that name. (Some pictures are named like a theme: "bees".)"""
+        themes = {t for c in self.credits.values() for t in c.get("themes", [])}
+        if theme not in themes:
+            return theme if theme in self.credits else None
         free = [n for n, c in self.credits.items() if theme in c.get("themes", [])
                 and self.blob_id(n) not in in_use]
         if not free:

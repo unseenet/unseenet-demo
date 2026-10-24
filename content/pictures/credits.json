@@ -212,5 +212,915 @@
     "themes": [
       "home"
     ]
+  },
+  "guineapigs-1": {
+    "title": "File:Cavia porcellus 3581853.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cavia_porcellus_3581853.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Cavia_porcellus_3581853.jpg/1280px-Cavia_porcellus_3581853.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Jesse Rorabaugh",
+    "description": "Domestic Guinea Pig (Cavia porcellus)",
+    "file": "content/pictures/guineapigs-1.jpg",
+    "themes": [
+      "guineapigs"
+    ]
+  },
+  "guineapigs-2": {
+    "title": "File:Guinea pig with a tonsure.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Guinea_pig_with_a_tonsure.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Guinea_pig_with_a_tonsure.jpg/1280px-Guinea_pig_with_a_tonsure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "ArtemisiaGentileschiFan",
+    "description": "A guinea pig at a pet store that appears to have a tonsure hairdo",
+    "file": "content/pictures/guineapigs-2.jpg",
+    "themes": [
+      "guineapigs"
+    ]
+  },
+  "guineapigs-3": {
+    "title": "File:Rusty The Smiling Guinea Pig (235589647).jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rusty_The_Smiling_Guinea_Pig_(235589647).jpeg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Rusty_The_Smiling_Guinea_Pig_%28235589647%29.jpeg/1280px-Rusty_The_Smiling_Guinea_Pig_%28235589647%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Christina Telep",
+    "description": "500px provided description: Camera: Sony a5100 ISO: 1600 Aperture: f/5.6 Shutter: 1/160 This is Rusty! He is one of my 2 guinea pigs that I've had for about 10 months now. They truly keep me sane in c",
+    "file": "content/pictures/guineapigs-3.jpg",
+    "themes": [
+      "guineapigs"
+    ]
+  },
+  "bees-1": {
+    "title": "File:European honey bee extracts nectar.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:European_honey_bee_extracts_nectar.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/European_honey_bee_extracts_nectar.jpg/1280px-European_honey_bee_extracts_nectar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "John Severns (Severnjc)",
+    "description": "A European honey bee (Apis mellifera) extracts nectar from an Aster flower using its proboscis. Tiny hairs covering the bee's body maintain a slight electrostatic charge, causing pollen from the flowe",
+    "file": "content/pictures/bees-1.jpg",
+    "themes": [
+      "bees"
+    ]
+  },
+  "bees-2": {
+    "title": "File:Honey Bee on Gaillardia Flower - Flickr - Swallowtail Garden Seeds.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Honey_Bee_on_Gaillardia_Flower_-_Flickr_-_Swallowtail_Garden_Seeds.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Honey_Bee_on_Gaillardia_Flower_-_Flickr_-_Swallowtail_Garden_Seeds.jpg/1280px-Honey_Bee_on_Gaillardia_Flower_-_Flickr_-_Swallowtail_Garden_Seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Swallowtail Garden Seeds from Santa Rosa, California, United States",
+    "description": "Gaillardia and honeybee close-up taken on June 18th in Santa Rosa, Ca. Find exceptional gaillardia seeds at: www.swallowtailgardenseeds.com/perennials/gaillardia.html From the Swallowtail Garden Seeds",
+    "file": "content/pictures/bees-2.jpg",
+    "themes": [
+      "bees"
+    ]
+  },
+  "bees-3": {
+    "title": "File:Honey bee on oregano flower.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Honey_bee_on_oregano_flower.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Honey_bee_on_oregano_flower.jpg/1280px-Honey_bee_on_oregano_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Conall",
+    "description": "honey bee on oregano flower",
+    "file": "content/pictures/bees-3.jpg",
+    "themes": [
+      "bees"
+    ]
+  },
+  "bees-4": {
+    "title": "File:Bee and honey-bee.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bee_and_honey-bee.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Bee_and_honey-bee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Md.Kawsar Hossain Jowel",
+    "description": "honey-bee.",
+    "file": "content/pictures/bees-4.jpg",
+    "themes": [
+      "bees"
+    ]
+  },
+  "bees-5": {
+    "title": "File:Passion Flower with Honey Bee.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Passion_Flower_with_Honey_Bee.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Passion_Flower_with_Honey_Bee.jpg/1280px-Passion_Flower_with_Honey_Bee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Bernd Thaller",
+    "description": "Passion Flower with Honey Bee",
+    "file": "content/pictures/bees-5.jpg",
+    "themes": [
+      "bees"
+    ]
+  },
+  "bees-6": {
+    "title": "File:Honey Bee(Ápis melliféra) on a flower.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Honey_Bee(%C3%81pis_mellif%C3%A9ra)_on_a_flower.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Honey_Bee%28%C3%81pis_mellif%C3%A9ra%29_on_a_flower.jpg/1280px-Honey_Bee%28%C3%81pis_mellif%C3%A9ra%29_on_a_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Plaksin Alexander",
+    "description": "The photo shows a Honey Bee on a flower. Notice how clearly the body parts of the bee are visible. The bee was photographed during collecting pollen and nectar. The photo was taken in the morning. Des",
+    "file": "content/pictures/bees-6.jpg",
+    "themes": [
+      "bees"
+    ]
+  },
+  "bread-1": {
+    "title": "File:Sourdough bread - January 2026 - Sarah Stierch 01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sourdough_bread_-_January_2026_-_Sarah_Stierch_01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Sourdough_bread_-_January_2026_-_Sarah_Stierch_01.jpg/1280px-Sourdough_bread_-_January_2026_-_Sarah_Stierch_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Missvain",
+    "description": "Homemade sourdough bread with turmeric, flax, pepitas and sesame seeds in Sonoma, California",
+    "file": "content/pictures/bread-1.jpg",
+    "themes": [
+      "bread"
+    ]
+  },
+  "bread-3": {
+    "title": "File:Sourdough bread - January 2026 - Sarah Stierch 03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sourdough_bread_-_January_2026_-_Sarah_Stierch_03.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Sourdough_bread_-_January_2026_-_Sarah_Stierch_03.jpg/1280px-Sourdough_bread_-_January_2026_-_Sarah_Stierch_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Missvain",
+    "description": "Homemade sourdough bread with turmeric, flax, pepitas and sesame seeds in Sonoma, California",
+    "file": "content/pictures/bread-3.jpg",
+    "themes": [
+      "bread"
+    ]
+  },
+  "bread-4": {
+    "title": "File:Slices of sourdough bread.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Slices_of_sourdough_bread.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Slices_of_sourdough_bread.jpg/1280px-Slices_of_sourdough_bread.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Angel Ganev",
+    "description": "Slices of sourdough bread, showing the cross section and crumb.",
+    "file": "content/pictures/bread-4.jpg",
+    "themes": [
+      "bread"
+    ]
+  },
+  "bread-5": {
+    "title": "File:No-knead sourdough baked during pandemic.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:No-knead_sourdough_baked_during_pandemic.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/No-knead_sourdough_baked_during_pandemic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Valereee",
+    "description": "No-knead sourdough baked during pandemic",
+    "file": "content/pictures/bread-5.jpg",
+    "themes": [
+      "bread"
+    ]
+  },
+  "bread-6": {
+    "title": "File:Sourdough bread - 44722450712.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sourdough_bread_-_44722450712.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Sourdough_bread_-_44722450712.jpg/1280px-Sourdough_bread_-_44722450712.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Joy",
+    "description": "the-cooking-of-joy.blogspot.com/2018/09/my-communion-brea...",
+    "file": "content/pictures/bread-6.jpg",
+    "themes": [
+      "bread"
+    ]
+  },
+  "radio-3": {
+    "title": "File:Amateur radio camping.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Amateur_radio_camping.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Amateur_radio_camping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "author": "Henryk KotowskiKotoviski",
+    "description": "A portable Amateur Radio station in a caravan operated by Holger Granholm - call sign OH0NC. Location Åland Islands between Sweden and Finland",
+    "file": "content/pictures/radio-3.jpg",
+    "themes": [
+      "radio"
+    ]
+  },
+  "hiking-2": {
+    "title": "File:Lone Star Hiking Trail, Sam Houston National Forest.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lone_Star_Hiking_Trail,_Sam_Houston_National_Forest.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Lone_Star_Hiking_Trail%2C_Sam_Houston_National_Forest.jpg/1280px-Lone_Star_Hiking_Trail%2C_Sam_Houston_National_Forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "William L. Farr",
+    "description": "A view of Clear Creek seen from the Lone Star Hiking Trail in the Magnolia Unit of Sam Houston National Forest, San Jacinto County, Texas. 28 April 2025 (30.5367°N, 95.1703°W, 71 meters elevation).",
+    "file": "content/pictures/hiking-2.jpg",
+    "themes": [
+      "hiking"
+    ]
+  },
+  "nightsky-1": {
+    "title": "File:Laser Towards Milky Ways Centre.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Laser_Towards_Milky_Ways_Centre.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Laser_Towards_Milky_Ways_Centre.jpg/1280px-Laser_Towards_Milky_Ways_Centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "ESO/Yuri Beletsky (ybialets at eso.org)",
+    "description": "In mid-August 2010 ESO Photo Ambassador Yuri Beletsky snapped this photo at ESO’s Paranal Observatory, Chile. A group of astronomers were observing the centre of the Milky Way using the laser guide st",
+    "file": "content/pictures/nightsky-1.jpg",
+    "themes": [
+      "night sky"
+    ]
+  },
+  "nightsky-2": {
+    "title": "File:Milky Way Night Sky Black Rock Desert Nevada.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg/1280px-Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Steve Jurvetson",
+    "description": "Photograph of the Milky Way in the night sky over Black Rock Desert, Nevada taken on 7/22/2007. It is a 54 second exposure taken with a tripod mounted Canon EOS 5D digital camera with a 16 mm lens, wi",
+    "file": "content/pictures/nightsky-2.jpg",
+    "themes": [
+      "night sky"
+    ]
+  },
+  "nightsky-3": {
+    "title": "File:Night Sky - Boney Mountain & Milky Way (11074300594).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Night_Sky_-_Boney_Mountain_%26_Milky_Way_(11074300594).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Night_Sky_-_Boney_Mountain_%26_Milky_Way_%2811074300594%29.jpg/1280px-Night_Sky_-_Boney_Mountain_%26_Milky_Way_%2811074300594%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Santa Monica Mountains National Recreation Area",
+    "description": "Night Sky - Boney Mountain &amp; Milky Way",
+    "file": "content/pictures/nightsky-3.jpg",
+    "themes": [
+      "night sky"
+    ]
+  },
+  "nightsky-4": {
+    "title": "File:Milky Way Night Sky (Unsplash).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Milky_Way_Night_Sky_(Unsplash).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Milky_Way_Night_Sky_%28Unsplash%29.jpg/1280px-Milky_Way_Night_Sky_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Guillaume guillaume",
+    "description": "Seth Doyle 2016 (Unsplash).jpg",
+    "file": "content/pictures/nightsky-4.jpg",
+    "themes": [
+      "night sky"
+    ]
+  },
+  "nightsky-5": {
+    "title": "File:Milky Way stretches across the Chilean night sky (uhd img 4010 cc).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Milky_Way_stretches_across_the_Chilean_night_sky_(uhd_img_4010_cc).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Milky_Way_stretches_across_the_Chilean_night_sky_%28uhd_img_4010_cc%29.jpg/1280px-Milky_Way_stretches_across_the_Chilean_night_sky_%28uhd_img_4010_cc%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "ESO/B. Tafreshi (twanight.org)",
+    "description": "The Chilean night sky revealed in this fish-eye (fulldome) view from the Atacama Desert. The Milky Way can be seen to stretch across the sky. The constellation of Orion can be seen towards the end of ",
+    "file": "content/pictures/nightsky-5.jpg",
+    "themes": [
+      "night sky"
+    ]
+  },
+  "sea-1": {
+    "title": "File:Sea Cliff.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sea_Cliff.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Sea_Cliff.jpg/1280px-Sea_Cliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Serhio Magpie",
+    "description": "Cliff at Bodrum Castle, Turkey.",
+    "file": "content/pictures/sea-1.jpg",
+    "themes": [
+      "sea"
+    ]
+  },
+  "sea-2": {
+    "title": "File:2025-11-08 Sea cliffs in Ribamar, Lourinhã 3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2025-11-08_Sea_cliffs_in_Ribamar,_Lourinh%C3%A3_3.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/2025-11-08_Sea_cliffs_in_Ribamar%2C_Lourinh%C3%A3_3.jpg/1280px-2025-11-08_Sea_cliffs_in_Ribamar%2C_Lourinh%C3%A3_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Alexkom000",
+    "description": "Sea cliffs in Ribamar, Lourinhã",
+    "file": "content/pictures/sea-2.jpg",
+    "themes": [
+      "sea"
+    ]
+  },
+  "sea-3": {
+    "title": "File:2025-11-08 Sea cliffs in Ribamar, Lourinhã 1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2025-11-08_Sea_cliffs_in_Ribamar,_Lourinh%C3%A3_1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/2025-11-08_Sea_cliffs_in_Ribamar%2C_Lourinh%C3%A3_1.jpg/1280px-2025-11-08_Sea_cliffs_in_Ribamar%2C_Lourinh%C3%A3_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Alexkom000",
+    "description": "Sea cliffs in Ribamar, Lourinhã",
+    "file": "content/pictures/sea-3.jpg",
+    "themes": [
+      "sea"
+    ]
+  },
+  "mountains-1": {
+    "title": "File:Zagedan Lakes, Mountain cirque, Caucasus Mountains.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zagedan_Lakes,_Mountain_cirque,_Caucasus_Mountains.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Zagedan_Lakes%2C_Mountain_cirque%2C_Caucasus_Mountains.jpg/1280px-Zagedan_Lakes%2C_Mountain_cirque%2C_Caucasus_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Vyacheslav Argenberg",
+    "description": "The Zagedan lakes are of ancient glacial origin. They are surrounded by karst rock formations in a mountain cirque, which represents a typical ancient glacial landform in the Caucasus Mountains. The g",
+    "file": "content/pictures/mountains-1.jpg",
+    "themes": [
+      "mountains"
+    ]
+  },
+  "mountains-2": {
+    "title": "File:Mountain lake, Mylgval mountain cirque, Western Caucasus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mountain_lake,_Mylgval_mountain_cirque,_Western_Caucasus.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Mountain_lake%2C_Mylgval_mountain_cirque%2C_Western_Caucasus.jpg/1280px-Mountain_lake%2C_Mylgval_mountain_cirque%2C_Western_Caucasus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Vyacheslav Argenberg",
+    "description": "Rare, small-scale (about 600 metres (2,000 ft) in diameter), ancient glacial erosion cirque with high-altitude lake (2,730 metres (8,960 ft) a. s. l.) and rock formation (300 metres (980 ft) prominenc",
+    "file": "content/pictures/mountains-2.jpg",
+    "themes": [
+      "mountains"
+    ]
+  },
+  "mountains-3": {
+    "title": "File:Ergaki, Mountain lake Skazka, Rock formations, Sayan Mountains, Russia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ergaki,_Mountain_lake_Skazka,_Rock_formations,_Sayan_Mountains,_Russia.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Ergaki%2C_Mountain_lake_Skazka%2C_Rock_formations%2C_Sayan_Mountains%2C_Russia.jpg/1280px-Ergaki%2C_Mountain_lake_Skazka%2C_Rock_formations%2C_Sayan_Mountains%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Vyacheslav Argenberg",
+    "description": "Mountain lake Skazka and rock formations in the upper reaches of the Kebezh River (Yenisei River basin). Ergaki Range, Western Sayan Mountains, Krasnoyarsk Krai, Russia.",
+    "file": "content/pictures/mountains-3.jpg",
+    "themes": [
+      "mountains"
+    ]
+  },
+  "mountains-4": {
+    "title": "File:Chola Mountain Lake, Nepal.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chola_Mountain_Lake,_Nepal.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Chola_Mountain_Lake%2C_Nepal.jpg/1280px-Chola_Mountain_Lake%2C_Nepal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Vyacheslav Argenberg",
+    "description": "Chola glacial lake (4600) at the base of the north wall of the Cholatse-Taboche mountain massif (6440) with alluvial fans and glacial moraines under a blanket of clouds. Chola Valley, south of the Gre",
+    "file": "content/pictures/mountains-4.jpg",
+    "themes": [
+      "mountains"
+    ]
+  },
+  "garden-1": {
+    "title": "File:Kitchen garden at Los Poblanos.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kitchen_garden_at_Los_Poblanos.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Kitchen_garden_at_Los_Poblanos.jpg/1280px-Kitchen_garden_at_Los_Poblanos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "PralineCoffee",
+    "description": "Kitchen gardens at Los Poblanos",
+    "file": "content/pictures/garden-1.jpg",
+    "themes": [
+      "garden"
+    ]
+  },
+  "garden-3": {
+    "title": "File:Vegetable garden of Spaso-Yevfimiyev Monastery.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vegetable_garden_of_Spaso-Yevfimiyev_Monastery.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Vegetable_garden_of_Spaso-Yevfimiyev_Monastery.jpg/1280px-Vegetable_garden_of_Spaso-Yevfimiyev_Monastery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Perituss",
+    "description": "Vegetable garden of Spaso-Yevfimiyev Monastery in Suzdal as of July 2024.",
+    "file": "content/pictures/garden-3.jpg",
+    "themes": [
+      "garden"
+    ]
+  },
+  "home-2": {
+    "title": "File:Cup of tea image.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cup_of_tea_image.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Cup_of_tea_image.jpg/1280px-Cup_of_tea_image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Darakshanehaluddin",
+    "description": "Cup of tea image",
+    "file": "content/pictures/home-2.jpg",
+    "themes": [
+      "home"
+    ]
+  },
+  "home-3": {
+    "title": "File:A cup of Assam Tea with lemon.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_cup_of_Assam_Tea_with_lemon.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/A_cup_of_Assam_Tea_with_lemon.jpg/1280px-A_cup_of_Assam_Tea_with_lemon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Nayan j Nath",
+    "description": "Food at Wikimania 2024",
+    "file": "content/pictures/home-3.jpg",
+    "themes": [
+      "home"
+    ]
+  },
+  "town-2": {
+    "title": "File:Wiślna Street, view from N, Old Town , Kraków, Poland.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wi%C5%9Blna_Street,_view_from_N,_Old_Town_,_Krak%C3%B3w,_Poland.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Wi%C5%9Blna_Street%2C_view_from_N%2C_Old_Town_%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-Wi%C5%9Blna_Street%2C_view_from_N%2C_Old_Town_%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Igor123121",
+    "description": "Wiślna Street, view from N, Old Town , Kraków, Poland",
+    "file": "content/pictures/town-2.jpg",
+    "themes": [
+      "town"
+    ]
+  },
+  "town-4": {
+    "title": "File:Convent of the Jesuits, 8a Sienna Street, Old Town, Kraków, Poland (4).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Convent_of_the_Jesuits,_8a_Sienna_Street,_Old_Town,_Krak%C3%B3w,_Poland_(4).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Convent_of_the_Jesuits%2C_8a_Sienna_Street%2C_Old_Town%2C_Krak%C3%B3w%2C_Poland_%284%29.jpg/1280px-Convent_of_the_Jesuits%2C_8a_Sienna_Street%2C_Old_Town%2C_Krak%C3%B3w%2C_Poland_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Igor123121",
+    "description": "Convent of the Jesuits, 8a Sienna street, Old Town, Kraków, Poland",
+    "file": "content/pictures/town-4.jpg",
+    "themes": [
+      "town"
+    ]
+  },
+  "autumn-1": {
+    "title": "File:Autumn Leaves River.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Autumn_Leaves_River.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Autumn_Leaves_River.jpg/1280px-Autumn_Leaves_River.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Free Nature Stock",
+    "description": "Autumn leaves on a river",
+    "file": "content/pictures/autumn-1.jpg",
+    "themes": [
+      "autumn"
+    ]
+  },
+  "autumn-2": {
+    "title": "File:Autumn leaves Все краски осени Листья клена 21.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Autumn_leaves_%D0%92%D1%81%D0%B5_%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8_%D0%BE%D1%81%D0%B5%D0%BD%D0%B8_%D0%9B%D0%B8%D1%81%D1%82%D1%8C%D1%8F_%D0%BA%D0%BB%D0%B5%D0%BD%D0%B0_21.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Autumn_leaves_%D0%92%D1%81%D0%B5_%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8_%D0%BE%D1%81%D0%B5%D0%BD%D0%B8_%D0%9B%D0%B8%D1%81%D1%82%D1%8C%D1%8F_%D0%BA%D0%BB%D0%B5%D0%BD%D0%B0_21.jpg/1280px-Autumn_leaves_%D0%92%D1%81%D0%B5_%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8_%D0%BE%D1%81%D0%B5%D0%BD%D0%B8_%D0%9B%D0%B8%D1%81%D1%82%D1%8C%D1%8F_%D0%BA%D0%BB%D0%B5%D0%BD%D0%B0_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Tsyganov Sergey",
+    "description": "Autumn leaves Все краски осени Листья клена",
+    "file": "content/pictures/autumn-2.jpg",
+    "themes": [
+      "autumn"
+    ]
+  },
+  "autumn-3": {
+    "title": "File:Autumn leaves, Dumitru Rascanu park.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Autumn_leaves,_Dumitru_Rascanu_park.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Autumn_leaves%2C_Dumitru_Rascanu_park.jpg/1280px-Autumn_leaves%2C_Dumitru_Rascanu_park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Iurie Nistor",
+    "description": "Autumn leaves, Dumitru Rascanu park",
+    "file": "content/pictures/autumn-3.jpg",
+    "themes": [
+      "autumn"
+    ]
+  },
+  "autumn-4": {
+    "title": "File:Autumn leaves, Valea Morilor park 1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Autumn_leaves,_Valea_Morilor_park_1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Autumn_leaves%2C_Valea_Morilor_park_1.jpg/1280px-Autumn_leaves%2C_Valea_Morilor_park_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Iurie Nistor",
+    "description": "Autumn leaves, Valea Morilor park",
+    "file": "content/pictures/autumn-4.jpg",
+    "themes": [
+      "autumn"
+    ]
+  },
+  "autumn-5": {
+    "title": "File:Ladislav Mednyánszky - Autumn Forest - O 3097 - Slovak National Gallery.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ladislav_Medny%C3%A1nszky_-_Autumn_Forest_-_O_3097_-_Slovak_National_Gallery.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Ladislav_Medny%C3%A1nszky_-_Autumn_Forest_-_O_3097_-_Slovak_National_Gallery.jpg/1280px-Ladislav_Medny%C3%A1nszky_-_Autumn_Forest_-_O_3097_-_Slovak_National_Gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "László Mednyánszky",
+    "description": "",
+    "file": "content/pictures/autumn-5.jpg",
+    "themes": [
+      "autumn"
+    ]
+  },
+  "winter-1": {
+    "title": "File:Carpathian beech forest in its winter coat.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Carpathian_beech_forest_in_its_winter_coat.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Carpathian_beech_forest_in_its_winter_coat.jpg/1280px-Carpathian_beech_forest_in_its_winter_coat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "AS Photography",
+    "description": "Landscape of a Carpathian beech forest during a frosty winter where the trees are thickly frosted, giving the scene a fairytale, monochromatic look, united by silence and peace.",
+    "file": "content/pictures/winter-1.jpg",
+    "themes": [
+      "winter"
+    ]
+  },
+  "winter-4": {
+    "title": "File:Winter in the forest (23796981583).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Winter_in_the_forest_(23796981583).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Winter_in_the_forest_%2823796981583%29.jpg/1280px-Winter_in_the_forest_%2823796981583%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Greg_FOT from Germany",
+    "description": "Winter in the forest",
+    "file": "content/pictures/winter-4.jpg",
+    "themes": [
+      "winter"
+    ]
+  },
+  "winter-5": {
+    "title": "File:Winter landscape of Carpathian forest.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Winter_landscape_of_Carpathian_forest.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Winter_landscape_of_Carpathian_forest.jpg/1280px-Winter_landscape_of_Carpathian_forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "AS Photography",
+    "description": "Coniferous trees beautifully decorated with rime on a frosty winter day.",
+    "file": "content/pictures/winter-5.jpg",
+    "themes": [
+      "winter"
+    ]
+  },
+  "spring-2": {
+    "title": "File:Flowers-meadow-spring-green (23697806154).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flowers-meadow-spring-green_(23697806154).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Flowers-meadow-spring-green_%2823697806154%29.jpg/1280px-Flowers-meadow-spring-green_%2823697806154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "www.Pixel.la Free Stock Photos",
+    "description": "flowers-meadow-spring-green",
+    "file": "content/pictures/spring-2.jpg",
+    "themes": [
+      "spring"
+    ]
+  },
+  "spring-3": {
+    "title": "File:Spring with Flowers.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spring_with_Flowers.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Spring_with_Flowers.jpg/1280px-Spring_with_Flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Larisa Koshkina",
+    "description": "Flowers are bloomed in the spring season; as shown here",
+    "file": "content/pictures/spring-3.jpg",
+    "themes": [
+      "spring"
+    ]
+  },
+  "spring-4": {
+    "title": "File:Meadow saffron near Aar spring, Neuhof.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Meadow_saffron_near_Aar_spring,_Neuhof.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Meadow_saffron_near_Aar_spring%2C_Neuhof.jpg/1280px-Meadow_saffron_near_Aar_spring%2C_Neuhof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Gerda Arendt",
+    "description": "Meadow saffron near Aar spring, Neuhof",
+    "file": "content/pictures/spring-4.jpg",
+    "themes": [
+      "spring"
+    ]
+  },
+  "spring-5": {
+    "title": "File:Spring Flowers - Flickr - gailhampshire.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spring_Flowers_-_Flickr_-_gailhampshire.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Spring_Flowers_-_Flickr_-_gailhampshire.jpg/1280px-Spring_Flowers_-_Flickr_-_gailhampshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "gailhampshire from Cradley, Malvern, U.K",
+    "description": "Spring Flowers",
+    "file": "content/pictures/spring-5.jpg",
+    "themes": [
+      "spring"
+    ]
+  },
+  "spring-6": {
+    "title": "File:Flower Meadow. Caminho de Albufeira 20 May 2016.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Flower_Meadow._Caminho_de_Albufeira_20_May_2016.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Flower_Meadow._Caminho_de_Albufeira_20_May_2016.JPG/1280px-Flower_Meadow._Caminho_de_Albufeira_20_May_2016.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Kolforn",
+    "description": "A meadow full of spring flowers on the southern side of Caminho de Albufeira in the neighbourhood of Vale Navio which is east of the city of Albufeira, Algarve, Portugal.",
+    "file": "content/pictures/spring-6.jpg",
+    "themes": [
+      "spring"
+    ]
+  },
+  "summer-6": {
+    "title": "File:Summer meadow - Flickr - Stiller Beobachter.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Summer_meadow_-_Flickr_-_Stiller_Beobachter.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Summer_meadow_-_Flickr_-_Stiller_Beobachter.jpg/1280px-Summer_meadow_-_Flickr_-_Stiller_Beobachter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Stiller Beobachter from Ansbach, Germany",
+    "description": "summer meadow",
+    "file": "content/pictures/summer-6.jpg",
+    "themes": [
+      "summer"
+    ]
+  },
+  "bread-2": {
+    "title": "File:Sourdough Bread Loaf.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sourdough_Bread_Loaf.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Sourdough_Bread_Loaf.jpg/1280px-Sourdough_Bread_Loaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Agelaia",
+    "description": "Home-baked sourdough bread loaf showing its features.",
+    "file": "content/pictures/bread-2.jpg",
+    "themes": [
+      "bread"
+    ]
+  },
+  "hiking-1": {
+    "title": "File:2026-08-21 Forest on a hiking trail on the north slope of the Serra de Montejunto.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2026-08-21_Forest_on_a_hiking_trail_on_the_north_slope_of_the_Serra_de_Montejunto.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/2026-08-21_Forest_on_a_hiking_trail_on_the_north_slope_of_the_Serra_de_Montejunto.jpg/1280px-2026-08-21_Forest_on_a_hiking_trail_on_the_north_slope_of_the_Serra_de_Montejunto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Alexkom000",
+    "description": "Forest on a hiking trail near the Real Fábrica do Gelo on the north slope of the Serra de Montejunto",
+    "file": "content/pictures/hiking-1.jpg",
+    "themes": [
+      "hiking"
+    ]
+  },
+  "sea-4": {
+    "title": "File:2025-11-08 Sea cliffs in Ribamar, Lourinhã 4.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2025-11-08_Sea_cliffs_in_Ribamar,_Lourinh%C3%A3_4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/2025-11-08_Sea_cliffs_in_Ribamar%2C_Lourinh%C3%A3_4.jpg/1280px-2025-11-08_Sea_cliffs_in_Ribamar%2C_Lourinh%C3%A3_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Alexkom000",
+    "description": "Sea cliffs in Ribamar, Lourinhã",
+    "file": "content/pictures/sea-4.jpg",
+    "themes": [
+      "sea"
+    ]
+  },
+  "garden-2": {
+    "title": "File:20250818 Franciscan garden Panewniki 02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20250818_Franciscan_garden_Panewniki_02.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/20250818_Franciscan_garden_Panewniki_02.jpg/1280px-20250818_Franciscan_garden_Panewniki_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Abraham",
+    "description": "Vegetable garden, Franciscan monastery, Katowice Panewniki, Poland.",
+    "file": "content/pictures/garden-2.jpg",
+    "themes": [
+      "garden"
+    ]
+  },
+  "garden-4": {
+    "title": "File:Flower Garden Kromeriz.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flower_Garden_Kromeriz.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Flower_Garden_Kromeriz.jpg/1280px-Flower_Garden_Kromeriz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "P.matel",
+    "description": "Flower garden in Kroměříž, Kroměříž District, Czech Republic.",
+    "file": "content/pictures/garden-4.jpg",
+    "themes": [
+      "garden"
+    ]
+  },
+  "garden-5": {
+    "title": "File:Flower garden Hopewell Furnace.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flower_garden_Hopewell_Furnace.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Flower_garden_Hopewell_Furnace.jpg/1280px-Flower_garden_Hopewell_Furnace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "89Traveler",
+    "description": "Flower garden off season",
+    "file": "content/pictures/garden-5.jpg",
+    "themes": [
+      "garden"
+    ]
+  },
+  "home-1": {
+    "title": "File:UM cup of sweet tea.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:UM_cup_of_sweet_tea.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/UM_cup_of_sweet_tea.jpg/1280px-UM_cup_of_sweet_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Jordano53",
+    "description": "Cup of sweet tea",
+    "file": "content/pictures/home-1.jpg",
+    "themes": [
+      "home"
+    ]
+  },
+  "winter-2": {
+    "title": "File:Snowy road Sosonka 2013 G1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Snowy_road_Sosonka_2013_G1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Snowy_road_Sosonka_2013_G1.jpg/1280px-Snowy_road_Sosonka_2013_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "George Chernilevsky",
+    "description": "The snow-covered road from Sosonka village to the highway M21 Vinnytsia–Kyiv.",
+    "file": "content/pictures/winter-2.jpg",
+    "themes": [
+      "winter"
+    ]
+  },
+  "winter-3": {
+    "title": "File:Snowy village 08 (Imagsang Plus).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Snowy_village_08_(Imagsang_Plus).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Snowy_village_08_%28Imagsang_Plus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "아사달",
+    "description": "눈 내리는 마을 08(상상플러스)",
+    "file": "content/pictures/winter-3.jpg",
+    "themes": [
+      "winter"
+    ]
+  },
+  "spring-1": {
+    "title": "File:Caminho de Albufeira, Flower Meadow, 20 May 2016.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Caminho_de_Albufeira,_Flower_Meadow,_20_May_2016.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Caminho_de_Albufeira%2C_Flower_Meadow%2C_20_May_2016.JPG/1280px-Caminho_de_Albufeira%2C_Flower_Meadow%2C_20_May_2016.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Kolforn",
+    "description": "A meadow full of spring flowers on the southern side of Caminho de Albufeira in the neighbourhood of Vale Navio which is east of the city of Albufeira, Algarve, Portugal.",
+    "file": "content/pictures/spring-1.jpg",
+    "themes": [
+      "spring"
+    ]
+  },
+  "summer-1": {
+    "title": "File:Field of Sunflowers - panoramio.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Field_of_Sunflowers_-_panoramio.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Field_of_Sunflowers_-_panoramio.jpg/1280px-Field_of_Sunflowers_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "JF Hobbs",
+    "description": "Field of Sunflowers",
+    "file": "content/pictures/summer-1.jpg",
+    "themes": [
+      "summer"
+    ]
+  },
+  "summer-2": {
+    "title": "File:Campo De Girasoles Field Of Sunflowers (167514137).jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Campo_De_Girasoles_Field_Of_Sunflowers_(167514137).jpeg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Campo_De_Girasoles_Field_Of_Sunflowers_%28167514137%29.jpeg/1280px-Campo_De_Girasoles_Field_Of_Sunflowers_%28167514137%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Natali Alvarez",
+    "description": "500px provided description: campo de girasoles venezuela [#flowers ,#flores ,#naturaleza ,#venezuela ,#flor ,#campo ,#girasol ,#girasoles]",
+    "file": "content/pictures/summer-2.jpg",
+    "themes": [
+      "summer"
+    ]
+  },
+  "summer-3": {
+    "title": "File:Sunflower field at sunset.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunflower_field_at_sunset.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Sunflower_field_at_sunset.jpg/1280px-Sunflower_field_at_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Summer Stock",
+    "description": "Sunflower field at sunset",
+    "file": "content/pictures/summer-3.jpg",
+    "themes": [
+      "summer"
+    ]
+  },
+  "summer-4": {
+    "title": "File:Sunflowers (28848836560).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunflowers_(28848836560).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Sunflowers_%2828848836560%29.jpg/1280px-Sunflowers_%2828848836560%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Don Richards from Altamonte Springs, USA",
+    "description": "Sunflowers",
+    "file": "content/pictures/summer-4.jpg",
+    "themes": [
+      "summer"
+    ]
+  },
+  "summer-5": {
+    "title": "File:Quirindi Sunflowers (195296591).jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Quirindi_Sunflowers_(195296591).jpeg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Quirindi_Sunflowers_%28195296591%29.jpeg/1280px-Quirindi_Sunflowers_%28195296591%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Chad Ajamian",
+    "description": "500px provided description: Quirindi Sunflowers [#Flower ,#Girl ,#Australia ,#Woman ,#Field ,#Farm ,#Yellow ,#Sunflower ,#NSW ,#Agriculture]",
+    "file": "content/pictures/summer-5.jpg",
+    "themes": [
+      "summer"
+    ]
+  },
+  "town-1": {
+    "title": "File:Town Hall, Market Square. Muszyna, Poland.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Town_Hall,_Market_Square._Muszyna,_Poland.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Town_Hall%2C_Market_Square._Muszyna%2C_Poland.jpg/1280px-Town_Hall%2C_Market_Square._Muszyna%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Igor123121",
+    "description": "Town Hall, Market Square, Muszyna, Poland",
+    "file": "content/pictures/town-1.jpg",
+    "themes": [
+      "town"
+    ]
+  },
+  "town-3": {
+    "title": "File:Old Town Market Square., 2026, Warsaw, Poland.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_Town_Market_Square.,_2026,_Warsaw,_Poland.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Old_Town_Market_Square.%2C_2026%2C_Warsaw%2C_Poland.jpg/1280px-Old_Town_Market_Square.%2C_2026%2C_Warsaw%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Igor123121",
+    "description": "Old Town Market Square, 2026, Warsaw, Poland",
+    "file": "content/pictures/town-3.jpg",
+    "themes": [
+      "town"
+    ]
+  },
+  "guineapigs-4": {
+    "title": "File:Guinea pig 2015.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Guinea_pig_2015.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Guinea_pig_2015.jpg/1280px-Guinea_pig_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Amirhosszein",
+    "description": "Guinea pig",
+    "file": "content/pictures/guineapigs-4.jpg",
+    "themes": [
+      "guineapigs"
+    ]
+  },
+  "guineapigs-6": {
+    "title": "File:Shrek guinea pig.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shrek_guinea_pig.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Shrek_guinea_pig.jpg/1280px-Shrek_guinea_pig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "NoamDonagi",
+    "description": "שרקנית נקבה",
+    "file": "content/pictures/guineapigs-6.jpg",
+    "themes": [
+      "guineapigs"
+    ]
+  },
+  "radio-4": {
+    "title": "File:Three UHF Yagi television antennas.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Three_UHF_Yagi_television_antennas.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Three_UHF_Yagi_television_antennas.jpg/1280px-Three_UHF_Yagi_television_antennas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Original image: Serge Nueffer at fr.wikipedia Derivative image: Chetvorno",
+    "description": "Three UHF Yagi terrestrial television antennas on a house in France, and an older 5 element VHF analog television antenna in the foreground. The lowest UHF antenna is mounted with elements vertical fo",
+    "file": "content/pictures/radio-4.jpg",
+    "themes": [
+      "radio"
+    ]
+  },
+  "home-4": {
+    "title": "File:Reading a book while holding a cup of coffee.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Reading_a_book_while_holding_a_cup_of_coffee.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Reading_a_book_while_holding_a_cup_of_coffee.jpg/1280px-Reading_a_book_while_holding_a_cup_of_coffee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Shixart1985",
+    "description": "A person sits in a chair and enjoys reading a book while holding a cup of coffee. The scene shows sunlight coming through, creating a warm atmosphere in the afternoon.",
+    "file": "content/pictures/home-4.jpg",
+    "themes": [
+      "home"
+    ]
+  },
+  "winter-6": {
+    "title": "File:Snowy road Sosonka 2017 G1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Snowy_road_Sosonka_2017_G1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Snowy_road_Sosonka_2017_G1.jpg/1280px-Snowy_road_Sosonka_2017_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "George Chernilevsky",
+    "description": "The snow-covered road from Sosonka village to the highway M21 Vinnytsia–Kyiv",
+    "file": "content/pictures/winter-6.jpg",
+    "themes": [
+      "winter"
+    ]
   }
 }

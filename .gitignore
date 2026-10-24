@@ -4,3 +4,4 @@ state.json
 .page-*.md
 local.toml
 __pycache__/
+sheet-*.jpg
