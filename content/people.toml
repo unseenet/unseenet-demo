@@ -1,5 +1,6 @@
 # The fictional people of the demo. Each has a key derived from the demo seed and their
-# name here (`key`), a profile, a picture and a personal feed. Nobody here is real.
+# name here (`key`), a profile, a picture, a personal feed and a site of their own
+# (content/people/<name>/). Nobody here is real.
 
 [demo]
 display = "Unseenet Demo"

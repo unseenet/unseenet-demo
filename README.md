@@ -1,7 +1,7 @@
 # unseenet-demo
 
 Demo content for [Unseenet](https://unseenet.org), so there is something to see: five
-made-up people with profiles, pictures and their own feeds, a shared feed, a chat, a
+made-up people with profiles, pictures and their own feeds and sites, a shared feed, a chat, a
 discussion group, a photo group and a site - with comments and replies between them.
 
 It is made **only with the `unseenet` command-line client**, so it is also a proof of
@@ -17,11 +17,12 @@ concept: everything here is something anyone can do with the released software.
 | `unseenet.demo.photos` | pictures, with their metadata taken out by the client |
 | `unseenet.demo.site` | the demo's site: pages that stay, with links to everything |
 | `feed@<fingerprint>` | each person's personal feed |
+| `site@<fingerprint>` | each person's personal site: a home page and a page about what they care about |
 
 The people - Mira and her guinea pigs, Tomas the beekeeper, Nadia the baker, Ole the
 radio amateur and Ines who walks and looks at stars - are in `content/people.toml`;
 their posts in `content/posts.toml`, the chat in `content/chat.toml`, the site's pages
-in `content/site/`. Every group's rules say that **everything is reset every Monday**.
+in `content/site/`, and each person's own site in `content/people/<name>/`. Every group's rules say that **everything is reset every Monday**.
 
 ## Running it
 
