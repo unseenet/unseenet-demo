@@ -57,3 +57,24 @@ season = "any"
 pictures = ["home"]
 body = """Rainy Sunday. Tea, a blanket, a stack of library books, and two guinea pigs \
 wheeking every time the fridge opens."""
+
+[[post]]
+subject = "Crunchy leaves"
+season = "autumn"
+written = "llm"
+pictures = ["autumn"]
+body = """I love how the sidewalk outside the library turns golden most days, and Pepper and Biscuit perk up whenever I open the window to let the autumn air in. The scent of dry leaves mixing with fresh hay always makes me smile."""
+
+[[post]]
+subject = "Tea and books"
+season = "autumn"
+written = "llm"
+pictures = ["home"]
+body = """There's something about cradling a warm mug while shelving new arrivals at the library that makes the shorter days feel cozy. After work, I often read a few pages on the porch before the sky turns too dark for the guinea pigs' nighttime zoomies."""
+
+[[post]]
+subject = "Guinea pig antics"
+season = "autumn"
+written = "llm"
+pictures = ["guineapigs"]
+body = """Pepper insists on nudging a fallen leaf into his tunnel every evening, while Biscuit gives me the hay-look even when the bowl is full. Their little wheeks at the sound of rustling autumn branches always remind me how much they love the season's subtle sounds."""

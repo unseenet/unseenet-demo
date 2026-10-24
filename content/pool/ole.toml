@@ -53,3 +53,24 @@ season = "any"
 body = """Three people came to the club evening to learn about radio. We built a \
 simple receiver from a kit. When it first crackled into life, everybody grinned."""
 comments = [{by = "nadia", body = "I would come, if it doesn't start before five."}]
+
+[[post]]
+subject = "Apple press"
+season = "autumn"
+written = "llm"
+pictures = ["autumn"]
+body = """I hauled the last basket of windfalls into the kitchen while the leaves went gold in the yard. The old press groaned and smelled of sweet dust, and I bottled the juice while it dripped. I saved one small cup for the morning."""
+
+[[post]]
+subject = "Rain on the potting shed"
+season = "autumn"
+written = "llm"
+pictures = ["home"]
+body = """Rain tapped the tin roof of the potting shed, and I sat on the stool with a cup of tea. The geraniums needed moving before the nights got cold, so I took them inside. The quiet was so thick I could hear the floorboards settle."""
+
+[[post]]
+subject = "Leaf piles"
+season = "autumn"
+written = "llm"
+pictures = ["garden"]
+body = """The oak behind the shed has gone red and brown, and I raked it into a great messy pile. I tipped some into the garden bed and dragged the rest to the edge. It felt good to make a season last a little longer."""
