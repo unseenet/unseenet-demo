@@ -36,5 +36,4 @@ jobs:
         env:
           DEMO_CONFIG: ci.toml
           UNSEENET_DEMO_SEED: ${{ secrets.UNSEENET_DEMO_SEED }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python demo.py weekly

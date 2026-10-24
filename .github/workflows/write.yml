@@ -1,0 +1,66 @@
+# New posts for the pool, written by a language model (tools/write_pool.py) - as a pull
+# request, so a person reads and edits them before the weekly run ever uses them.
+# On the 1st of every month, and by hand from the Actions tab.
+name: Write for the pool
+
+on:
+  schedule:
+    - cron: "17 5 1 * *"          # the 1st of the month, 05:17 UTC
+  workflow_dispatch:
+    inputs:
+      per_person:
+        description: "New posts per person"
+        default: "3"
+      season:
+        description: "Season (empty: the coming one)"
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Ask the model
+        env:
+          DEMO_CONFIG: ci.toml
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          python tools/write_pool.py --per-person "${{ inputs.per_person || 3 }}" \
+            ${{ inputs.season && format('--season {0}', inputs.season) || '' }} | tee written.log
+
+      - name: A pull request to read
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- content/pool; then
+            echo "Nothing new was written."; exit 0
+          fi
+          branch="pool/$(date -u +%Y-%m-%d-%H%M)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add content/pool
+          git commit -q -m "New posts for the pool, written by a language model - to be read"
+          git push -q origin "$branch"
+          {
+            echo "New posts for the pool, written by a language model (\`written = \"llm\"\`)."
+            echo
+            echo "**Read every one before merging.** Edit or delete what is wrong, odd or not in"
+            echo "the person's voice - nothing here is posted until this is merged, and then only"
+            echo "by the weekly run, one at a time."
+            echo
+            echo '```'
+            cat written.log
+            echo '```'
+          } > body.md
+          gh pr create --title "New posts for the pool ($(date -u +%Y-%m-%d))" --body-file body.md --base main --head "$branch"

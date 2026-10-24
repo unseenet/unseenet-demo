@@ -2,8 +2,9 @@
 """Make and keep the Unseenet demo, with the `unseenet` command line.
 
     demo.py weekly    the weekly run: withdraw what visitors wrote, make what is
-                      missing, and post this week's news - from the pool, from the
-                      almanac, and (with a key) written by a language model
+                      missing, and post this week's news - from the pool and from the
+                      almanac. New posts for the pool are written separately
+                      (tools/write_pool.py), and read by a person before they are used
     demo.py up        only make what is missing: people, groups, the base posts, the site
     demo.py down [--remove-groups]
                       withdraw everything; --remove-groups removes the groups for good
@@ -186,11 +187,14 @@ class Demo:
 
     def profiles(self) -> None:
         print("Profiles and personal feeds")
-        llm = bool(self.llm_config())
         for name, p in self.people.items():
             mine = self.run("profile", "--of", self.keys[name]["fingerprint"], who=name).get("profile") or {}
-            about = p.get("about", "") + ("\n\nSome posts here are written with a language model."
-                                          if llm and name != "demo" else "")
+            pool = CONTENT / "pool" / f"{name}.toml"
+            by_model = pool.exists() and any(i.get("written") == "llm"
+                                             for i in tomllib.loads(pool.read_text()).get("post", []))
+            about = p.get("about", "") + ("\n\nSome posts here are written with a language model, "
+                                          "and read by a person before they are posted."
+                                          if by_model else "")
             if mine.get("about") != about:
                 args = ["profile", "--about", about, "--yes"]
                 for link in p.get("links", []):
@@ -455,7 +459,6 @@ class Demo:
         self.base()
         self.pool()
         self.almanac_posts()
-        self.llm_posts()
         self.chat()
         self.site()
         print("Done for", almanac.week(self.today))
