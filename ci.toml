@@ -2,10 +2,11 @@
 # Secrets come from the repository's secrets, never from here: UNSEENET_DEMO_SEED,
 # and OPENROUTER_API_KEY for the language model.
 
-# Until 0.5.0 runs on the project's nodes: the test nodes, under dk.test.demo.
-# Then: prefix = "unseenet.demo" and the project's nodes.
-prefix = "dk.test.demo"
-nodes = ["f6vnchi5p7ll4yn6yot6cz4ohzuxy3uhc3kztafuwn3zlyoup6tn64qd.onion"]
+# The project's nodes run 0.5.0 (unseenet#386): the demo lives under unseenet.demo,
+# among the starter groups of new clients (unseenet#388), on node3 and node4.
+prefix = "unseenet.demo"
+nodes = ["ics4bgvbghmag7aw7qp6ap44zjh5tyn2d5ilfo7p7cb4ov6ap5hus4ad.onion",
+         "mwmkpsteb4utkbvy26utmjl6l4hhd3lj3p5wfa64evszfutbp3yrqxyd.onion"]
 vault = "demo.vault"              # made fresh in every run; the keys come from the seed
 passphrase = "demo"               # the vault lives only for the run
 
