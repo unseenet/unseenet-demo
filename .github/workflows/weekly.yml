@@ -29,8 +29,7 @@ jobs:
         run: sudo apt-get update -q && sudo apt-get install -y -q tor
 
       - name: The unseenet command line
-        # until 0.5.0 is released: the development version
-        run: pip install -q "unseenet @ git+https://github.com/unseenet/unseenet@main"
+        run: pip install -q "unseenet>=0.5,<0.6"
 
       - name: Run the week
         env:
