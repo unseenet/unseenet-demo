@@ -10,7 +10,7 @@ comments = [{by = "mira", body = "I was there at 9:05. Tragic."}]
 subject = "Gordon's birthday"
 season = "any"
 body = """Gordon (my starter) turned nine this week. I fed him rye flour and warm \
-water and told him he is a good boy. He bubbled. I think he heard me."""
+water and told him he is a good boy. He bubbled. I think he heard me. #sourdough"""
 comments = [{by = "ole", body = "Happy birthday, Gordon. Many happy loaves."},
             {by = "tomas", body = "Does Gordon like honey? Asking for a recipe."}]
 

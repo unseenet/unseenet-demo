@@ -56,7 +56,7 @@ subject = "Reading corner"
 season = "any"
 pictures = ["home"]
 body = """Rainy Sunday. Tea, a blanket, a stack of library books, and two guinea pigs \
-wheeking every time the fridge opens."""
+wheeking every time the fridge opens. #booklovers"""
 
 [[post]]
 subject = "Crunchy leaves"
@@ -99,3 +99,10 @@ season = "autumn"
 written = "llm"
 pictures = ["guineapigs"]
 body = """Biscuit has developed a shocking talent for pulling whole kale leaves through the bars of his run if I'm not quick enough. Pepper prefers to wait for the hand-delivered pieces, squeaking impatiently at my slowness. I've started growing extra just for them, which feels entirely reasonable."""
+
+[[post]]
+subject = "That ending (spoiler!)"
+tags = ["books", "spoiler"]
+body = """Finished the lighthouse novel from the holds shelf. I did not see it coming: \
+the keeper was the narrator's own brother all along, and he never left the island. \
+Don't read this if it is still on your list - and then do read it."""
