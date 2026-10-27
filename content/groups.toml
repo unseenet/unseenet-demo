@@ -9,6 +9,7 @@ type = "open"
 title = "Unseenet Demo: discussion"
 description = "Threads and replies. Say hello, ask anything - it is reset every Monday."
 rules = "rules.md"
+languages = "en"
 
 [chat]
 name = "chat"
@@ -18,6 +19,7 @@ kinds = "chat"
 title = "Unseenet Demo: chat"
 description = "A chat room. Lines come and go; everything is reset every Monday."
 rules = "rules.md"
+languages = "en"
 
 [feed]
 name = "feed"
@@ -31,6 +33,7 @@ rules = "rules.md"
 max_pins = 3
 attachments = 1048576
 types = "image/*"
+languages = "en"
 
 [photos]
 name = "photos"
@@ -40,6 +43,7 @@ types = "image/*"
 title = "Unseenet Demo: photos"
 description = "Pictures, with their metadata taken out by the client before they are sent."
 rules = "rules.md"
+languages = "en"
 
 [site]
 name = "site"
@@ -51,3 +55,4 @@ description = "The demo's site: what Unseenet is, how to try it, and who lives h
 home = "index"
 attachments = 1048576
 types = "image/*"
+languages = "en"
