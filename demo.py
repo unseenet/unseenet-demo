@@ -176,6 +176,8 @@ class Demo:
             for poster in g.get("posters", []):
                 args += ["--poster", self.keys[poster]["key"]]
             self.run(*args, who="demo")
+            if g.get("languages"):                   # group-create takes none: set it now
+                self.run("group-edit", gid, "--languages", g["languages"], who="demo")
 
     def sync_settings(self, gid: str, g: dict, have: dict) -> None:
         """A group made before groups.toml changed: its files and retention as now."""
@@ -186,6 +188,10 @@ class Demo:
                 args += ["--attachments", g["attachments"]] + (["--types", g["types"]] if g.get("types") else [])
         if have.get("retention_days", 90) != g.get("retention_days", 90):
             args += ["--retention-days", g.get("retention_days", 90)]
+        # what is written there (UN-RFC 0052 5a): clients suggest it to those who write
+        want_langs = [x.strip() for x in g.get("languages", "").split(",") if x.strip()]
+        if want_langs and list(have.get("languages") or []) != want_langs:
+            args += ["--languages", ",".join(want_langs)]
         if args:
             self.run("group-edit", gid, *args, who="demo")
 
