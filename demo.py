@@ -217,6 +217,21 @@ class Demo:
             if name != "demo":
                 self.run("feed-start", "--attachments", 1048576, "--types", "image/*", "--yes", who=name)
 
+    def tags_for(self, item: dict, who: str, text: str) -> list[str]:
+        """A post's tags (UN-RFC 0052): its own (``tags`` in posts.toml or the pool, or
+        the model's), else up to two of the person's topics that the text is about - the
+        first topic when none is named. #words in the text count too (the core adds them)."""
+        own = [str(t).strip().lower() for t in item.get("tags", []) if str(t).strip()]
+        if own:
+            return own[:8]
+        topics = self.people.get(who, {}).get("topics", [])
+        if not topics:
+            return []
+        low = text.lower()
+        fitting = [t for t in topics if any(w in low for w in t.replace("-", " ").split()
+                                            if len(w) > 3)]
+        return (fitting or topics[:1])[:2]
+
     def post(self, item: dict, in_use: set[str], parent: str | None = None) -> str | None:
         """One post (or comment) unless the person has it there already."""
         who, gid = item["by"], self.group_id(item["group"])
@@ -236,6 +251,9 @@ class Demo:
                 body += "\n" + self.source_line(name) + "\n"
         if item.get("kind") == "chat":
             args += ["--kind", "chat"]
+        elif not parent:                                  # a post, not a comment: its tags
+            for tag in self.tags_for(item, who, f"{subject or ''} {body}"):
+                args += ["--tag", tag]
         r = self.run(*args, "--body", body, who=who, check=False)
         if "error" in r:
             print(f"    not posted: {r['error'][-200:]}")
@@ -392,12 +410,14 @@ class Demo:
                   f"friendly online village. About them: {p['about']} It is "
                   f"{almanac.season(self.today)}, {self.today:%d %B}. Recent posts, do not repeat "
                   f"them: {recent}. Write in English, warm and concrete, 2-4 sentences, no "
-                  "hashtags, nothing about real people, no advice that could hurt. Answer only "
-                  'with JSON: {"subject": "...", "body": "..."}')
+                  "hashtags, nothing about real people, no advice that could hurt. Give 1-3 tags: "
+                  f"short lowercase words for its topics, preferably from {p.get('topics', [])}. "
+                  'Answer only with JSON: {"subject": "...", "body": "...", "tags": ["..."]}')
         out = self.ask(llm, prompt)
         if out:
+            tags = [t for t in out.get("tags", []) if isinstance(t, str)][:3]
             self.post({"by": name, "group": f"feed:{name}", "subject": out["subject"].strip(),
-                       "body": out["body"].strip()}, set())
+                       "body": out["body"].strip(), "tags": tags}, set())
 
     # --- the site ---
     def fill(self, text: str) -> str:
