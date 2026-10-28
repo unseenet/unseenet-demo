@@ -40,7 +40,7 @@ concept: everything here is something anyone can do with the released software.
 The people - Mira and her guinea pigs, Tomas the beekeeper, Nadia the baker, Ole the
 radio amateur and Ines who walks and looks at stars - are in `content/people.toml`;
 their posts in `content/posts.toml`, the chat in `content/chat.toml`, the site's pages
-in `content/site/`, and each person's own site in `content/people/<name>/`. Every group's rules say that **everything is reset every Monday**.
+in `content/site/`, and each person's own site in `content/people/<name>/`. Every group's charter says that **everything is reset every Monday**.
 
 ### Pictures
 
