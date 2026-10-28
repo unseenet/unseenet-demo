@@ -171,8 +171,8 @@ class Demo:
                         "types", "retention_days"):
                 if opt in g:
                     args += [f"--{opt.replace('_', '-')}", g[opt]]
-            if g.get("rules"):
-                args += ["--rules", CONTENT / g["rules"]]
+            if g.get("charter"):                     # the group's charter (UN-RFC 0014)
+                args += ["--charter", CONTENT / g["charter"]]
             for poster in g.get("posters", []):
                 args += ["--poster", self.keys[poster]["key"]]
             self.run(*args, who="demo")
@@ -180,12 +180,15 @@ class Demo:
                 self.run("group-edit", gid, "--languages", g["languages"], who="demo")
 
     def sync_settings(self, gid: str, g: dict, have: dict) -> None:
-        """A group made before groups.toml changed: its files and retention as now."""
+        """A group made before groups.toml changed: its charter, files and retention as now."""
         args = []
         if "attachments" in g:
             want = {"max_size": g["attachments"]} | ({"types": g["types"].split(",")} if g.get("types") else {})
             if have.get("attachments") != want:
                 args += ["--attachments", g["attachments"]] + (["--types", g["types"]] if g.get("types") else [])
+        # a manifest from before unseenet#726 says "rules": written again, it says "charter"
+        if g.get("charter") and have.get("charter") != (CONTENT / g["charter"]).read_text():
+            args += ["--charter", CONTENT / g["charter"]]
         if have.get("retention_days", 90) != g.get("retention_days", 90):
             args += ["--retention-days", g.get("retention_days", 90)]
         # what is written there (UN-RFC 0052 5a): clients suggest it to those who write

@@ -1,5 +1,5 @@
 # The demo's groups, owned by the demo key. `name` is put after the prefix in demo.toml
-# (e.g. unseenet.demo); an empty name is the prefix itself. Their rules say plainly that
+# (e.g. unseenet.demo); an empty name is the prefix itself. Their charter says plainly that
 # visitors' posts are withdrawn every Monday. Posts go by themselves after the default
 # 90 days; pinned posts and pages are kept articles and stay.
 
@@ -8,7 +8,7 @@ name = ""
 type = "open"
 title = "Unseenet Demo: discussion"
 description = "Threads and replies. Say hello, ask anything - it is reset every Monday."
-rules = "rules.md"
+charter = "charter.md"
 languages = "en"
 
 [chat]
@@ -18,7 +18,7 @@ view = "chat"
 kinds = "chat"
 title = "Unseenet Demo: chat"
 description = "A chat room. Lines come and go; everything is reset every Monday."
-rules = "rules.md"
+charter = "charter.md"
 languages = "en"
 
 [feed]
@@ -29,7 +29,7 @@ comments = "open"
 posters = ["mira", "tomas", "nadia", "ole", "ines"]
 title = "Around the village"
 description = "A shared feed: what the people of the demo are up to. Comment as you like."
-rules = "rules.md"
+charter = "charter.md"
 max_pins = 3
 attachments = 1048576
 types = "image/*"
@@ -42,7 +42,7 @@ attachments = 1048576
 types = "image/*"
 title = "Unseenet Demo: photos"
 description = "Pictures, with their metadata taken out by the client before they are sent."
-rules = "rules.md"
+charter = "charter.md"
 languages = "en"
 
 [site]
