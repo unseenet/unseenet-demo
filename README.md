@@ -69,6 +69,12 @@ it with the project's other keys.
 **The first run** takes a while: every new key works for a few minutes, once, before it
 posts (key ripening, UN-RFC 0025). After that the vault remembers.
 
+**Riper keys** (`tools/ripen.py start`): every person's key ripens further in the
+background, at the lowest priority, to `--to`, else `UNSEENET_RIPEN_TO`, else `ripen_to`
+in `demo.toml`, else level 2. Level 4 takes about a month of one core per person and
+then makes every post about four times cheaper than level 2 - worth it on a machine with
+cores to spare. `status` shows how far each key is; `stop` keeps the progress.
+
 **What has been made** is remembered in the state file, so `up` makes only what is
 missing, and `reset` knows what to make again.
 
