@@ -4,3 +4,6 @@ nodes = []                        # node addresses (onion:port or host:port); th
 vault = "demo.vault"              # made here, ignored by git
 state = "state.json"              # what has been made, ignored by git
 seed_file = "~/Unseenet/backup/unseenet-demo.seed"   # or UNSEENET_DEMO_SEED
+# ripen_to = 2                    # tools/ripen.py's level (or UNSEENET_RIPEN_TO); 4 takes
+                                  # about a month of one core per person, then every post
+                                  # costs about a quarter
