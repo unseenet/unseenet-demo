@@ -50,7 +50,7 @@ comes from. `tools/fetch_pictures.py` finds and downloads them, and writes the c
 
 ## Run it
 
-Needs the `unseenet` CLI (0.5.0 or later), a node to post to, and the demo seed.
+Needs the `unseenet` CLI (0.6.0 or later), a node to post to, and the demo seed.
 
 ```bash
 python demo.py up        # make what is missing (safe to run again)
