@@ -7,9 +7,9 @@
 # the endorsed groups of unseenet.*, so a demo with files and a site does not belong
 # there (UN-RFC 0055 section 4.1, unseenet#821).
 prefix = "demo.unseenet"
-# Once clients that follow demo.unseenet instead are out (unseenet#846), remove the old
-# groups for good, in every run (a group already removed is skipped):
-# retire = ["unseenet.demo"]
+# The old groups under unseenet.demo are removed for good by their owner, in every run
+# (a group already removed is skipped); clients follow demo.unseenet instead (unseenet#846).
+retire = ["unseenet.demo"]
 nodes = ["ics4bgvbghmag7aw7qp6ap44zjh5tyn2d5ilfo7p7cb4ov6ap5hus4ad.onion",
          "mwmkpsteb4utkbvy26utmjl6l4hhd3lj3p5wfa64evszfutbp3yrqxyd.onion"]
 vault = "demo.vault"              # made fresh in every run; the keys come from the seed
