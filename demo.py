@@ -509,6 +509,7 @@ class Demo:
     def weekly(self) -> None:
         self.identities()
         self.make_groups()
+        self.retire()
         self.withdraw_visitors()
         self.profiles()
         self.base()
@@ -518,6 +519,16 @@ class Demo:
         self.site()
         self.personal_sites()
         print("Done for", almanac.week(self.today))
+
+    def retire(self) -> None:
+        """Remove the demo's groups under a prefix it moved away from (``retire`` in the
+        config): the old groups go for good, the people's own feeds and sites stay."""
+        for prefix in self.cfg.get("retire", []):
+            for key, g in self.groups.items():
+                name = g["name"]
+                gid = f"{prefix}{'.' + name if name else ''}@{self.keys['demo']['fingerprint']}"
+                self.run("group-remove", gid, "--reason", f"the demo moved to {self.prefix}",
+                         "--yes", who="demo", check=False)
 
     def down(self, remove_groups: bool) -> None:
         self.identities()
