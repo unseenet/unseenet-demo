@@ -2,9 +2,14 @@
 # Secrets come from the repository's secrets, never from here: UNSEENET_DEMO_SEED,
 # and OPENROUTER_API_KEY for the language model.
 
-# The project's nodes run 0.5.0 (unseenet#386): the demo lives under unseenet.demo,
-# among the starter groups of new clients (unseenet#388), on node3 and node4.
-prefix = "unseenet.demo"
+# The demo lives under demo.unseenet, among the starter groups of new clients
+# (unseenet#388), on node3 and node4. It moved from unseenet.demo: every node carries
+# the endorsed groups of unseenet.*, so a demo with files and a site does not belong
+# there (UN-RFC 0055 section 4.1, unseenet#821).
+prefix = "demo.unseenet"
+# Once clients that follow demo.unseenet instead are out (unseenet#846), remove the old
+# groups for good, in every run (a group already removed is skipped):
+# retire = ["unseenet.demo"]
 nodes = ["ics4bgvbghmag7aw7qp6ap44zjh5tyn2d5ilfo7p7cb4ov6ap5hus4ad.onion",
          "mwmkpsteb4utkbvy26utmjl6l4hhd3lj3p5wfa64evszfutbp3yrqxyd.onion"]
 vault = "demo.vault"              # made fresh in every run; the keys come from the seed

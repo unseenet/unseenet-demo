@@ -29,11 +29,11 @@ concept: everything here is something anyone can do with the released software.
 
 | Group | What |
 |---|---|
-| `unseenet.demo` | a discussion group: threads and replies, a pinned welcome |
-| `unseenet.demo.chat` | a chat room |
-| `unseenet.demo.feed` | "Around the village", a shared feed with comments open |
-| `unseenet.demo.photos` | pictures, with their metadata taken out by the client |
-| `unseenet.demo.site` | the demo's site: pages that stay, with links to everything |
+| `demo.unseenet` | a discussion group: threads and replies, a pinned welcome |
+| `demo.unseenet.chat` | a chat room |
+| `demo.unseenet.feed` | "Around the village", a shared feed with comments open |
+| `demo.unseenet.photos` | pictures, with their metadata taken out by the client |
+| `demo.unseenet.site` | the demo's site: pages that stay, with links to everything |
 | `feed@<fingerprint>` | each person's personal feed |
 | `site@<fingerprint>` | each person's personal site: a home page and a page about what they care about |
 

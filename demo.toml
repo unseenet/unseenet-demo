@@ -1,5 +1,5 @@
 # Settings for demo.py. The seed is a secret: never in this repository.
-prefix = "unseenet.demo"          # the groups: unseenet.demo, unseenet.demo.chat, ...
+prefix = "demo.unseenet"          # the groups: demo.unseenet, demo.unseenet.chat, ...
 nodes = []                        # node addresses (onion:port or host:port); the first is used
 vault = "demo.vault"              # made here, ignored by git
 state = "state.json"              # what has been made, ignored by git

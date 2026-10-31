@@ -1,5 +1,5 @@
 # The demo's groups, owned by the demo key. `name` is put after the prefix in demo.toml
-# (e.g. unseenet.demo); an empty name is the prefix itself. Their charter says plainly that
+# (e.g. demo.unseenet); an empty name is the prefix itself. Their charter says plainly that
 # visitors' posts are withdrawn every Monday. Posts go by themselves after the default
 # 90 days; pinned posts and pages are kept articles and stay.
 
