@@ -54,3 +54,24 @@ subject = "Planning the next walk"
 season = "any"
 body = """Next Sunday: the old railway line to the lake and back, about 15 km, flat \
 the whole way. Bring a sandwich. Nadia brings the rest."""
+
+[[post]]
+subject = "First snow on the high trail"
+season = "winter"
+written = "llm"
+pictures = ["winter"]
+body = """I set out before dawn and the world was hushed under fresh powder. Each step made a soft sigh, and the pines held the snow like candles. The air was so cold it tasted like iron, but the silence kept me warm."""
+
+[[post]]
+subject = "Orion over the frozen lake"
+season = "winter"
+written = "llm"
+pictures = ["night sky"]
+body = """The lake had turned to glass and the stars walked on its surface. I stood on the shore with my thermos, watching Orion climb above the far ridge. A meteor slipped through the quiet, and I didn't need to wish."""
+
+[[post]]
+subject = "Midwinter walk to the old beech"
+season = "winter"
+written = "llm"
+pictures = ["winter"]
+body = """The path wound through the dormant woods, and the beech stood pale against the grey sky. I pressed my hand to its bark, feeling the slow pulse of sap waiting for spring. On the way back, the moon rose and lit the footprints I'd left."""

@@ -52,3 +52,24 @@ subject = "Mouse guards"
 season = "autumn"
 body = """The mouse guards are on. A mouse in a hive in winter eats the comb and \
 makes a nest, and the bees are too cold to throw it out."""
+
+[[post]]
+subject = "The first snow on the hive roofs"
+season = "winter"
+written = "llm"
+pictures = ["winter"]
+body = """I woke to a soft white cap on each of the six hive roofs behind the school. The bees are quiet inside, clustered close like a warm ball of wool. I brushed the snow off gently so the entrances stay clear."""
+
+[[post]]
+subject = "Listening to the hum through the wood"
+season = "winter"
+written = "llm"
+pictures = ["bees"]
+body = """On cold mornings I press my ear to the hive walls and listen for the low, steady hum. It tells me the cluster is alive and moving slowly through their stored honey. It is the sound that carries me through the shortest days."""
+
+[[post]]
+subject = "Honey jars by the kitchen window"
+season = "winter"
+written = "llm"
+pictures = ["home"]
+body = """I lined up the last jars of summer honey where the morning light catches them. The gold looks like stored sunlight against the gray winter glass. Soon I will take a few to the Saturday market with my beeswax candles."""
